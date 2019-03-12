@@ -1,0 +1,12 @@
+.button1 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+}
+
+.button1:hover {background: #eee;}
+.learnmore {color: rgb(107, 107, 107);}
