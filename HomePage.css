@@ -2,6 +2,7 @@
     border: none;
     background-color: inherit;
     padding: 14px 28px;
+    font-family: Book Antiqua;
     font-size: 16px;
     cursor: 16Px;
     cursor: pointer;
@@ -10,3 +11,43 @@
 
 .button1:hover {background: #eee;}
 .learnmore {color: rgb(107, 107, 107);}
+
+.button2 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+}
+
+.button2:hover {background: #eee;}
+.login {color: rgb(107, 107, 107);}
+
+.button3 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+}
+
+.button3:hover {background: #eee;}
+.login {color: rgb(107, 107, 107);}
+
+.font1 {
+    font-size: 15px;
+    font-family: Book Antiqua;
+    color:white; 
+}
+
+.font2 {
+    font-size: 15px;
+    font-family: Book Antiqua;
+    color:rgb(107, 107, 107); 
+}
