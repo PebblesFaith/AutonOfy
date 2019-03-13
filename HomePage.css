@@ -75,4 +75,14 @@ hr {
     display: inline-block;    
 }
 
-  
+.footer1 { 
+    font-style: italic; 
+    font-family: Book Antiqua;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    text-align: center;
+  }
