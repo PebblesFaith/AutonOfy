@@ -8,7 +8,18 @@
     color: white;
     text-align: left;
   }
-  
+
+.header2 {    
+font-family: Book Antiqua;
+font-size: 18px;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: rgb(107, 107, 107);
+color: white;
+text-align: left;
+}
+
 .font1 {
     font-size: 18px;
     font-style: italic;  
