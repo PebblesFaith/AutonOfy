@@ -82,14 +82,22 @@
 .button6:hover {background: #eee;}
 .consumersignup {color: rgb(107, 107, 107);}
 
+.containerboxbackground {
+  background-color: rgb(235, 235, 235);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 25px;  
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
 .header1 {    
     font-family: Book Antiqua;
     font-size: 17px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(107, 107, 107);
-    color: white;
+    background-color: rgb(235, 235, 235);
+    color: rgb(107, 107, 107);
     text-align: left;
   }
 
@@ -131,10 +139,8 @@ p {
 ol { 
   font-family: Book Antiqua;
   font-size: 16px;
-
-
-
-}
+  color: rgb(107, 107, 107); 
+}                          
 
 .font1 {
     font-size: 18px;
