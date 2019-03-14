@@ -1,3 +1,17 @@
+.button1 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button1:hover {background: #eee;}
+.WhatWeDo {color: rgb(107, 107, 107);}
+
 .button2 {
   border: none;
   background-color: inherit;
@@ -10,7 +24,7 @@
 }
 
 .button2:hover {background: #eee;}
-.login {color: rgb(107, 107, 107);}
+.About {color: rgb(107, 107, 107);}
 
 .button3 {
   border: none;
@@ -24,11 +38,53 @@
 }
 
 .button3:hover {background: #eee;}
+.contact {color: rgb(107, 107, 107);}
+
+.button4 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button4:hover {background: #eee;}
 .login {color: rgb(107, 107, 107);}
+
+.button5 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button5:hover {background: #eee;}
+.companysignup {color: rgb(107, 107, 107);}
+
+.button6 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button6:hover {background: #eee;}
+.consumersignup {color: rgb(107, 107, 107);}
 
 .header1 {    
     font-family: Book Antiqua;
-    font-size: 16px;
+    font-size: 17px;
     left: 0;
     bottom: 0;
     width: 100%;
