@@ -1,3 +1,31 @@
+.button2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button2:hover {background: #eee;}
+.login {color: rgb(107, 107, 107);}
+
+.button3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;    
+}
+
+.button3:hover {background: #eee;}
+.login {color: rgb(107, 107, 107);}
+
 .header1 {    
     font-family: Book Antiqua;
     font-size: 16px;
@@ -20,16 +48,35 @@ color: white;
 text-align: left;
 }
 
+.col-sm-8 {
+  font-family: Book Antiqua;
+  font-size: 18px;
+  color: rgb(107, 107, 107);
+}
+
+
+
+
+
+
 p {    
-    font-family: Book Antiqua;
-    font-size: 16px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(107, 107, 107);
-    color: white;
-    text-align: center;
-    }
+  font-family: Book Antiqua;
+  font-size: 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(107, 107, 107);
+  color: white;
+  text-align: center;
+  }
+  
+ol { 
+  font-family: Book Antiqua;
+  font-size: 16px;
+
+
+
+}
 
 .font1 {
     font-size: 18px;
