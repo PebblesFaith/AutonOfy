@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.button1 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+    color: rgb(107, 107, 107);
+  }
+  
+  .button1:hover {background: #eee;}
+  .WhatWeDo {color: rgb(107, 107, 107);}
+  
+  .button2 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(107, 107, 107);   
+  }
+  
+  .button2:hover {background: #eee;}
+  .About {color: rgb(107, 107, 107);}
+  
+  .button3 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;  
+    color: rgb(107, 107, 107); 
+  }
+  
+  .button3:hover {background: #eee;}
+  .contact {color: rgb(107, 107, 107);}
+  
+  .button4 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);   
+  }
+  
+  .button4:hover {background: #eee;}
+  .login {color: rgb(107, 107, 107);}
+  
+  .button5 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);   
+  }
+  
+  .button5:hover {background: #eee;}
+  .companysignup {color: rgb(107, 107, 107);}
+  
+  .button6 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);   
+  }
+  
+  .button6:hover {background: #eee;}
+  .consumersignup {color: rgb(107, 107, 107);}
+
+  p.border1 {
+    border-left: 2em solid rgb(107, 107, 107);
+    background-color: rgb(235, 235, 235);
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(107, 107, 107);  
+    font-family: Book Antiqua serif;
+    font-size: 17px;
+  }
+
+  ul {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: rgb(107, 107, 107);  
+    font-family: Book Antiqua serif;
+    font-size: 17px;
+  }
+
+.font1 {
+    font-size: 18px;
+    font-style: italic;  
+    font-family: Book Antiqua;
+    color:white; 
+}
+
+.font2 {
+    font-size: 15px;
+    font-style: italic; 
+    font-family: Book Antiqua;
+    color: white; 
+}
+
+hr { 
+    display: block;    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; 
+  } 
+
+  .socialmedia1 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+}
+
+.footer1 { 
+    font-style: italic; 
+    font-family: Book Antiqua;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    text-align: center;
+  }
+
+
+  
