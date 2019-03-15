@@ -1,3 +1,6 @@
+body {
+  background-color: white;
+}
 .button1 {
   border: none;
   background-color: inherit;
@@ -6,7 +9,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block; 
+  color: rgb(107, 107, 107);
 }
 
 .button1:hover {background: #eee;}
@@ -20,7 +24,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block;  
+  color: rgb(107, 107, 107); 
 }
 
 .button2:hover {background: #eee;}
@@ -34,7 +39,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block; 
+  color: rgb(107, 107, 107);  
 }
 
 .button3:hover {background: #eee;}
@@ -48,7 +54,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block; 
+  color: rgb(107, 107, 107);
 }
 
 .button4:hover {background: #eee;}
@@ -62,7 +69,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block; 
+  color: rgb(107, 107, 107);
 }
 
 .button5:hover {background: #eee;}
@@ -76,7 +84,8 @@
   font-size: 16px;
   cursor: 16Px;
   cursor: pointer;
-  display: inline-block;    
+  display: inline-block;   
+  color: rgb(107, 107, 107);
 }
 
 .button6:hover {background: #eee;}
