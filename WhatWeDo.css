@@ -91,6 +91,50 @@ body {
 .button6:hover {background: #eee;}
 .consumersignup {color: rgb(107, 107, 107);}
 
+.banner2 {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 10vw;
+  font-style: italic; 
+  max-width: 1400px;
+  height: 170px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 2 auto;
+  justify-content: center;
+  color: rgb(107, 107, 107);
+}
+
+.proposition2 {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 1.5vw;
+  font-style: italic; 
+  max-width: 1400px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 2 auto;
+  justify-content: center;
+  color: rgb(107, 107, 107);
+}
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1px;
+}
+
+.column img3 {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 .containerboxbackground {
   background-color: rgb(235, 235, 235);
   border: 2px solid rgb(255, 255, 255);
