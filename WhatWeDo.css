@@ -124,6 +124,7 @@ body {
   justify-content: center;
   color: rgb(107, 107, 107);
 }
+
 .row3 {
   display: flex;
   flex-wrap: wrap;
