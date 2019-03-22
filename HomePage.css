@@ -153,14 +153,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;  
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(107, 107, 107); 
   align-items: center;
   justify-content: center;
 }
 
 /* Assign Selector to Sub-container element to store "AutonOfy Strip Double Line Under Header" picture into sub-containers */
 .flex-containerPic1 > div {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(107, 107, 107);
   width: 1440px;
   height: 30px;
   margin: 10px;
@@ -216,7 +216,6 @@ body {
   font-family: 'Book Antiqua', Times, serif; 
   font-style: italic; 
 }
-
 
 /* Assign selector button to div element for linking button5 to the "Company Membership SignUp" web page. */
 .button5 {
@@ -276,6 +275,35 @@ body {
 
 
 
+/* Main flex box container for storing individual buttons sub-containers. */
+.flex-container4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  background-color: rgb(107, 107, 107); 
+  align-items: center;
+  justify-content: center; 
+ }
+
+/* Add push selector to div element to skip three (3) empty div element containers, so my remaining containers can be shown, as individual line button, if shrink. */
+.push {
+  margin-left: auto;
+ }
+
+/* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
+
+.flex-container4 > div {
+  background-color: rgb(107, 107, 107);
+  width: 165px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  margin-left: center;
+  border: none;  
+  font-family: 'Book Antiqua', Times, serif; 
+  font-style: italic; 
+}
 
 
 
