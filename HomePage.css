@@ -298,12 +298,112 @@ body {
   margin: 10px;
   text-align: center;
   line-height: 25px;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: center;
   border: none;  
   font-family: 'Book Antiqua', Times, serif; 
   font-style: italic; 
+  color: rgb(255, 255, 255);
 }
+
+/* Main flex box container for storing individual buttons sub-containers. */
+.flex-container5 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  background-color:  rgb(107, 107, 107); 
+  align-items: center;
+  justify-content: center; 
+ }
+
+/* Add push selector to div element to skip three (3) empty div element containers, so my remaining containers can be shown, as individual line button, if shrink. */
+.push {
+  margin-left: auto;
+ }
+
+/* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
+
+.flex-container5 > div {
+  background-color: rgb(107, 107, 107);
+  width: 165px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  margin-left: center;
+  border: none;  
+  font-family: 'Book Antiqua', Times, serif; 
+  font-style: italic; 
+  color: rgb(255, 255, 255);
+}
+
+/* Assign selector button to div element for linking button2 to the "ABout" web page. */
+.button7 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 20px;
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 16px;
+  cursor: 16px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(255, 255, 255);  
+}
+
+.button7:hover {background: rgb(107, 107, 107);}
+.About {color: rgb(107, 107, 107);}
+
+/* Assign selector button to div element for linking button2 to the "ABout" web page. */
+.button8 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 20px;
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 16px;
+  cursor: 16px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(255, 255, 255);  
+}
+
+.button8:hover {background: rgb(107, 107, 107);}
+.About {color: rgb(107, 107, 107);}
+
+/* Assign selector button to div element for linking button2 to the "ABout" web page. */
+.button9 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 20px;
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 16px;
+  cursor: 16px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(255, 255, 255);  
+}
+
+.button9:hover {background: rgb(107, 107, 107);}
+.About {color: rgb(107, 107, 107);}
+
+
+/* Assign selector button to div element for linking button2 to the "ABout" web page. */
+.button10 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 20px;
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 16px;
+  cursor: 16px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(255, 255, 255);  
+}
+
+.button10:hover {background: rgb(107, 107, 107);}
+.About {color: rgb(107, 107, 107);}
+
+
+
 
 
 
