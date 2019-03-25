@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    height: 1500px;
+  }
+  
+  /* Add media screen color change, if the screen is reduce to 400px. */
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+
+ 
