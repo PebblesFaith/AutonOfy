@@ -2,11 +2,6 @@
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    font-family: Arial;
-    background-color: rgb(255, 255, 255);
-  }
   
   .header {
     text-align: center;
@@ -306,7 +301,6 @@
 
 .button19:hover {background: #eee;}
 .Guidelines {color: rgb(107, 107, 107);}
-
 
 #alignment2 {
   margin-top: 60px;
