@@ -289,14 +289,14 @@ body {
     background-color: inherit;
     padding: 10px 18px;
     font-family: 'Book Antiqua', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
     cursor: 16px;
     cursor: pointer;
     display: inline-block; 
-    color: rgb(107, 107, 107);   
+    color: rgb(255, 255, 255);   
     }
     
-    .button20:hover {background: rgb(255, 255, 255);}
+    .button20:hover {background: rgb(183, 181, 165);}
     .LearnMore1 {color: rgb(107, 107, 107);}
 
     /* Assign selector button to div element for linking button21 to the "LearnMore2" web page. */
@@ -305,15 +305,14 @@ body {
     background-color: inherit;
     padding: 10px 18px;
     font-family: 'Book Antiqua', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
     cursor: 16px;
     cursor: pointer;
     display: inline-block; 
-    color: rgb(107, 107, 107);
-    margin-left: 125px;  
+    color: rgb(255, 255, 255); 
     }
     
-    .button21:hover {background: rgb(255, 255, 255);}
+    .button21:hover {background: rgb(183, 181, 165);}
     .LearnMore2 {color: rgb(107, 107, 107);}
 
      /* Assign selector button to div element for linking button22 to the "LearnMore3" web page. */
@@ -322,15 +321,14 @@ body {
     background-color: inherit;
     padding: 10px 18px;
     font-family: 'Book Antiqua', Times, serif;
-    font-size: 16px;
+    font-size: 18px;
     cursor: 16px;
     cursor: pointer;
     display: inline-block; 
-    color: rgb(107, 107, 107);
-    margin-left: 125px;  
-    }
+    color: rgb(255, 255, 255);
+}
     
-    .button22:hover {background: rgb(255, 255, 255);}
+    .button22:hover {background: rgb(183, 181, 165);}
     .LearnMore3 {color: rgb(107, 107, 107);}
     
   /* Main flex box container to store "Company Membership SignUp" into sub-containers. */
