@@ -273,8 +273,6 @@ body {
 .button6:hover {background: #eee;}
 .consumersignup {color: rgb(107, 107, 107);}
 
-
-
 /* Main flex box container for storing individual buttons sub-containers. */
 .flex-container4 {
   display: flex;
@@ -320,14 +318,12 @@ body {
   background-color:rgb(107, 107, 107);
 }
 
-.column {
-
+.column {                                       
   flex: 14.2%;
   max-width: 14.2%;
   padding: 0 4px;
   text-align: center;
   font-size: 20px; 
-
   font-family: 'Book Antiqua', Times, serif; 
   font-style: italic; 
   background-color: rgb(107, 107, 107);
@@ -604,125 +600,34 @@ color: rgb(255, 255, 255);
 .button19:hover {background: #eee;}
 .Guidelines {color: rgb(107, 107, 107);}
 
-
 #alignment2 {
 margin-top: 60px;
 margin-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-.row1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 1px;
-}
-
-.column img1 {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-.row2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 1px;
-  }
-  
-  .column img2 {
-    margin-top: 8px;
-    vertical-align: middle;   
-  }
-
-  .row3 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 1px;
-  }
-  
-  .column img3 {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-  
-.font1 {
-    font-size: 18px;
-    font-style: italic;  
-    font-family: Book Antiqua;
-    color:white; 
-}
-
-.font2 {
-    font-size: 15px;
-    font-style: italic; 
-    font-family: Book Antiqua;
-    color: white; 
-}
-
-hr { 
-    display: block;    
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px; 
-  } 
-
-  .socialmedia1 {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-family: Book Antiqua;
-    font-size: 16px;
-    cursor: 16Px;
-    cursor: pointer;
-    display: inline-block;    
-}
-
-.footer1 { 
-    font-style: italic; 
-    font-family: Book Antiqua;
-    font-size: 12px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(107, 107, 107);
-    color: white;
-    text-align: center;
-  }
-
-  
 /* Setup row container to house four (4) individual columns */ 
 .row2 {
-  margin-top: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;    
-  align-items: center;
-  justify-content: center;     
-  background-color:rgb(107, 107, 107);
+margin-top: 0px;
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;    
+align-items: center;
+justify-content: center;     
+background-color:rgb(107, 107, 107);
 }
 
 /* Setup four (4) columns container inside row in order to places social media icons displays.*/
 .column2 {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-  text-align: center;
-  font-size: 20px; 
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+text-align: center;
+font-size: 20px; 
 
-  font-family: 'Book Antiqua', Times, serif; 
-  font-style: italic; 
-  background-color: rgb(107, 107, 107);
-  color: white;
+font-family: 'Book Antiqua', Times, serif; 
+font-style: italic; 
+background-color: rgb(107, 107, 107);
+color: white;
 }
 
 /* First (1st) row icons are position with top margin pixels selected to provide space between icons rows*/
@@ -732,33 +637,144 @@ margin-left: 0px;
 margin-bottom: 30px;
 }
 
-  
+
 /* Responsive layout - makes a two (2) column-layout instead of four (4) columns in first (1st) icons row. */
 @media (max-width: 1000px) {
-  .column2 {
-    flex: 50%;
-    max-width: 50%;
+.column2 {
+  flex: 50%;
+  max-width: 50%;
   }
 }
 
 /* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in first (1st) icons row.*/
 @media (max-width: 800px) {
-  .column2 {
-    flex: 75%;
-    max-width: 75%;
+.column2 {
+  flex: 75%;
+  max-width: 75%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other in first (1st) icons row.*/
 @media (max-width: 600px) {
-  .column2 {
-    flex: 100%;
-    max-width: 100%;
+.column2 {
+  flex: 100%;
+  max-width: 100%;
   }
 }
 
-/* Setup second (2nd) row container to house four (4) individual icon columns */ 
+/* Setup second (2nd) row container to house three (3) individual icon columns */ 
 .row3 {
+margin-top: 0px;
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;    
+align-items: center;
+justify-content: center;     
+background-color:rgb(107, 107, 107);
+}
+
+/* Setup three (3) columns container inside row in order to places social media icons displays.*/
+.column3 {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+text-align: center;
+font-size: 20px; 
+font-family: 'Book Antiqua', Times, serif; 
+font-style: italic; 
+background-color: rgb(107, 107, 107);
+color: white;
+}
+
+/* Second (2nd) row icons are position with top margin pixels selected to provide space between icons rows*/
+#alignment4 {
+margin-top: 30px;
+margin-left: 0px;
+margin-bottom: 30px;
+}
+
+
+/* Responsive layout - makes a two (2) column-layout instead of three (3) columns in second (2nd) icons row. */
+@media (max-width: 1000px) {
+.column3 {
+  flex: 50%;
+  max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in second (2nd) icons row.*/
+@media (max-width: 800px) {
+.column3 {
+  flex: 75%;
+  max-width: 75%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other in Second (2nd) icons row.*/
+@media (max-width: 600px) {
+.column3 {
+  flex: 100%;
+  max-width: 100%;
+  }
+}
+
+/* Setup third (3rd) row container to house four (4) individual icon columns */ 
+.row4 {
+margin-top: 0px;
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;    
+align-items: center;
+justify-content: center;     
+background-color:rgb(107, 107, 107);
+}
+
+/* Setup four (4) columns container inside row in order to places social media icons displays.*/
+.column4 {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+text-align: center;
+font-size: 20px; 
+font-family: 'Book Antiqua', Times, serif; 
+font-style: italic; 
+background-color: rgb(107, 107, 107);
+color: white;
+}
+
+/* Third (3rd) row icons are position with top margin pixels selected to provide space between icons rows*/
+#alignment5 {
+margin-top: 30px;
+margin-left: 0px;
+margin-bottom: 30px;
+}
+
+/* Responsive layout - makes a two (2) column-layout instead of four (4) columns in third (3rd) icons row. */
+@media (max-width: 1000px) {
+.column4 {
+  flex: 50%;
+  max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+@media (max-width: 800px) {
+.column4 {
+  flex: 75%;
+  max-width: 75%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+@media (max-width: 600px) {
+.column4 {
+  flex: 100%;
+  max-width: 100%;
+  }
+}
+
+/* Setup fourth (4th) row container to house one (1) individual footer column */ 
+.row5 {
   margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -768,50 +784,60 @@ margin-bottom: 30px;
   background-color:rgb(107, 107, 107);
 }
 
-/* Setup four (4) columns container inside row in order to places social media icons displays.*/
-.column3 {
+/* Setup one (1) column container inside row in order to places footer displays.*/
+.column5 {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
   text-align: center;
-  font-size: 20px; 
+  font-size: 16px;                               
   font-family: 'Book Antiqua', Times, serif; 
   font-style: italic; 
   background-color: rgb(107, 107, 107);
   color: white;
 }
 
-/* First (1st) row icons are position with top margin pixels selected to provide space between icons rows*/
-#alignment4 {
+/* Fourth (4th) row footer is position with top margin pixels selected to provide space between footer row*/
+#alignment6 {
 margin-top: 30px;
 margin-left: 0px;
 margin-bottom: 30px;
 }
-
   
-/* Responsive layout - makes a two (2) column-layout instead of four (4) columns in first (1st) icons row. */
+/* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
 @media (max-width: 1000px) {
-  .column3 {
+  .column5 {
     flex: 50%;
     max-width: 50%;
   }
 }
 
-/* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in first (1st) icons row.*/
+/* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
 @media (max-width: 800px) {
-  .column3 {
+  .column5 {
     flex: 75%;
     max-width: 75%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other in first (1st) icons row.*/
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
 @media (max-width: 600px) {
-  .column3 {
+  .column5 {
     flex: 100%;
     max-width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
