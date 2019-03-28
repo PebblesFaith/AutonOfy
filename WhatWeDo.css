@@ -170,31 +170,190 @@ body {
     border: none;  
   }
 
-
-
-
+ /* Setup main paragraph flex container to houses inside one (1) div paragraph with padding. */
 .paragraph-flex-container1 {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px; 
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
 }
 
+/* Setup second (2nd) paragraph flex container to houses inside one (1) paragraph class selector with padding. */
 .paragraph-flex-container1 > div {
+    margin-top: 0px;
     width: 750px;
     background-color: rgb(255, 255, 255);
     padding: 25px;    
 }
 
+/* Create class paragraph selector (p1) in order to style the content. */
 .p1 {
     line-height: 20px;
     font-family: 'Book Antiqua', Times, serif;
     font-size: 19px;   
     color: rgb(107, 107, 107); 
     line-height: 25px;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Setup fourth (4th) row container to house one (1) individual footer column */ 
+.row7 {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;    
+    align-items: center;
+    justify-content: center;     
+    background-color:rgb(255, 255, 255);
+  }
+  
+  /* Setup one (1) column container inside row in order to places footer displays.*/
+  .column7 {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+    text-align: center;
+    font-size: 16px;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 107, 107);
+  }
+
+  /* Main flex box container for storing individual buttons sub-containers. */
+  .flex-container7 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color:  rgb(183, 181, 165);
+    align-items: center;
+    justify-content: center; 
+    }
+    
+    /* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
+    
+    .flex-container7 > div {
+    background-color: rgb(224, 242, 213);
+    width: 375px;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: left;
+    border: none;  
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+    color: rgb(107, 107, 107);
+    }
+  
+      
+  /* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
+  @media (max-width: 1000px) {
+    .column7 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+  @media (max-width: 800px) {
+    .column7 {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+  @media (max-width: 600px) {
+    .column7 {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .p2 {
+    line-height: 20px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 18px;   
+    color: rgb(107, 107, 107); 
+    line-height: 25px;
+    text-align: left;
+    margin: 15px;
+
+  }
+
+  /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+  .button20 {
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 16px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);
+    margin-left: auto;
+    margin-right: auto;
+
+   
+    
+  
+    }
+    
+    .button20:hover {background: rgb(255, 255, 255);}
+    .LearnMore1 {color: rgb(107, 107, 107);}
+
+    /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+  .button21 {
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 16px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);
+    margin-left: 125px;  
+    }
+    
+    .button21:hover {background: rgb(255, 255, 255);}
+    .LearnMore2 {color: rgb(107, 107, 107);}
+
+     /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+  .button22 {
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 16px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);
+    margin-left: 125px;  
+    }
+    
+    .button22:hover {background: rgb(255, 255, 255);}
+    .LearnMore3 {color: rgb(107, 107, 107);}
+  
+  
+  
+  
+  
+  
 
 
 
