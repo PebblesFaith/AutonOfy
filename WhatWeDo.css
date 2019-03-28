@@ -197,17 +197,7 @@ body {
     line-height: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Setup fourth (4th) row container to house one (1) individual footer column */ 
+/* Create row container to house three (3) individual  columns. */ 
 .row7 {
     margin-top: 0px;
     display: flex;
@@ -218,7 +208,7 @@ body {
     background-color:rgb(255, 255, 255);
   }
   
-  /* Setup one (1) column container inside row in order to places footer displays.*/
+  /* Create three (3) columns container inside row in order to places titles inside each containers.*/
   .column7 {
     flex: 33.33%;
     max-width: 33.33%;
@@ -231,7 +221,7 @@ body {
     color: rgb(107, 107, 107);
   }
 
-  /* Main flex box container for storing individual buttons sub-containers. */
+  /* Create three (3) columns container inside row in order to places contents inside each containers.*/
   .flex-container7 {
     display: flex;
     flex-wrap: wrap;
@@ -241,8 +231,7 @@ body {
     justify-content: center; 
     }
     
-    /* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
-    
+    /* Create three (3) sub-containers div elements for storing container in each containers. */    
     .flex-container7 > div {
     background-color: rgb(224, 242, 213);
     width: 375px;
@@ -255,8 +244,7 @@ body {
     font-family: 'Book Antiqua', Times, serif; 
     font-style: italic; 
     color: rgb(107, 107, 107);
-    }
-  
+    }  
       
   /* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
   @media (max-width: 1000px) {
@@ -282,6 +270,8 @@ body {
     }
   }
 
+ /* Create class paragraph (p3) selector in order to places custom style titles for each containers.*/
+
   .p2 {
     line-height: 20px;
     font-family: 'Book Antiqua', Times, serif;
@@ -293,7 +283,7 @@ body {
 
   }
 
-  /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+  /* Assign selector button to div element for linking button20 to the "LearnMore1" web page. */
   .button20 {
     border: none;
     background-color: inherit;
@@ -315,7 +305,7 @@ body {
     .button20:hover {background: rgb(255, 255, 255);}
     .LearnMore1 {color: rgb(107, 107, 107);}
 
-    /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+    /* Assign selector button to div element for linking button21 to the "LearnMore2" web page. */
   .button21 {
     border: none;
     background-color: inherit;
@@ -332,7 +322,7 @@ body {
     .button21:hover {background: rgb(255, 255, 255);}
     .LearnMore2 {color: rgb(107, 107, 107);}
 
-     /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
+     /* Assign selector button to div element for linking button22 to the "LearnMore3" web page. */
   .button22 {
     border: none;
     background-color: inherit;
@@ -348,41 +338,7 @@ body {
     
     .button22:hover {background: rgb(255, 255, 255);}
     .LearnMore3 {color: rgb(107, 107, 107);}
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+    
   /* Main flex box container to store "Company Membership SignUp" into sub-containers. */
   .flex-container2 {
     display: flex;
