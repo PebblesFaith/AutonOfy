@@ -1,0 +1,245 @@
+body {
+  background-color: white;
+}
+
+.button1 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(107, 107, 107);
+}
+
+.button1:hover {background: #eee;}
+.WhatWeDo {color: rgb(107, 107, 107);}
+
+.button2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;  
+  color: rgb(107, 107, 107); 
+}
+
+.button2:hover {background: #eee;}
+.About {color: rgb(107, 107, 107);}
+
+.button3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(107, 107, 107);  
+}
+
+.button3:hover {background: #eee;}
+.contact {color: rgb(107, 107, 107);}
+
+.button4 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(107, 107, 107);
+}
+
+.button4:hover {background: #eee;}
+.login {color: rgb(107, 107, 107);}
+
+.button5 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(107, 107, 107);
+}
+
+.button5:hover {background: #eee;}
+.companysignup {color: rgb(107, 107, 107);}
+
+.button6 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-family: Book Antiqua;
+  font-size: 16px;
+  cursor: 16Px;
+  cursor: pointer;
+  display: inline-block;   
+  color: rgb(107, 107, 107);
+}
+
+.button6:hover {background: #eee;}
+.consumersignup {color: rgb(107, 107, 107);}
+
+.banner2 {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 10vw;
+  font-style: italic; 
+  max-width: 1400px;
+  height: 170px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 2 auto;
+  justify-content: center;
+  color: rgb(107, 107, 107);
+}
+
+.proposition2 {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 1.5vw;
+  font-style: italic; 
+  max-width: 1400px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 2 auto;
+  justify-content: center;
+  color: rgb(107, 107, 107);
+}
+
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1px;
+}
+
+.column img3 {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.containerboxbackground {
+  background-color: rgb(235, 235, 235);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 25px;  
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
+.header1 {    
+    font-family: Book Antiqua;
+    font-size: 17px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    color: rgb(107, 107, 107);
+    text-align: left;
+  }
+
+.header2 {    
+font-family: Book Antiqua;
+font-size: 18px;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: rgb(107, 107, 107);
+color: white;
+text-align: left;
+}
+
+
+.col-sm-8 {
+  font-family: Book Antiqua;
+  font-size: 18px;
+  color: rgb(107, 107, 107);
+}
+
+.col-sm-4 {
+  font-family: Book Antiqua;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+p {    
+  font-family: Book Antiqua;
+  font-size: 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(107, 107, 107);
+  color: white;
+  text-align: center;
+  }
+  
+ol { 
+  font-family: Book Antiqua;
+  font-size: 16px;
+  color: rgb(107, 107, 107); 
+}                          
+
+.font1 {
+    font-size: 18px;
+    font-style: italic;  
+    font-family: Book Antiqua;
+    color:white; 
+}
+
+.font2 {
+    font-size: 15px;
+    font-style: italic; 
+    font-family: Book Antiqua;
+    color: white; 
+}
+
+hr { 
+    display: block;    
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; 
+  } 
+
+  .socialmedia1 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: Book Antiqua;
+    font-size: 16px;
+    cursor: 16Px;
+    cursor: pointer;
+    display: inline-block;    
+}
+
+.footer1 { 
+    font-style: italic; 
+    font-family: Book Antiqua;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    text-align: center;
+  }
