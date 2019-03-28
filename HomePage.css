@@ -786,8 +786,8 @@ margin-bottom: 30px;
 
 /* Setup one (1) column container inside row in order to places footer displays.*/
 .column5 {
-  flex: 25%;
-  max-width: 25%;
+  flex: 100%;
+  max-width: 100%;
   padding: 0 4px;
   text-align: center;
   font-size: 16px;                               
