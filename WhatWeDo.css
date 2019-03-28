@@ -295,11 +295,7 @@ body {
     display: inline-block; 
     color: rgb(107, 107, 107);
     margin-left: auto;
-    margin-right: auto;
-
-   
-    
-  
+    margin-right: auto;  
     }
     
     .button20:hover {background: rgb(255, 255, 255);}
