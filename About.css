@@ -268,7 +268,7 @@ body {
     /* Create three (3) sub-containers div elements for storing container in each containers. */    
     .flex-container7 > div {
     background-color: rgb(224, 242, 213);
-    width: 375px;
+    width: 800px;
     margin: 10px;
     text-align: left;
     line-height: 25px;
