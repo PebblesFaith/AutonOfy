@@ -214,11 +214,12 @@ body {
     max-width: 33.33%;
     padding: 0 4px;
     text-align: center;
-    font-size: 16px;                               
+    font-size: 15px;                               
     font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic; 
-    background-color: rgb(255, 255, 255);
+    font-style: italic;   
+    background-color: rgb(224, 242, 213);
     color: rgb(107, 107, 107);
+    border: 2px;
   }
 
   /* Create three (3) columns container inside row in order to places contents inside each containers.*/
@@ -541,7 +542,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button7:hover {background: #eee;}
+  .button7:hover {background: rgb(183, 181, 165);}
   .About {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Jobs" web page. */
@@ -557,7 +558,7 @@ body {
   color: rgb(255, 255, 255); 
   }
   
-  .button8:hover {background: #eee;}
+  .button8:hover {background: rgb(183, 181, 165);}
   .Jobs {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Blog" web page. */
@@ -573,7 +574,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button9:hover {background: #eee;}
+  .button9:hover {background: rgb(183, 181, 165);}
   .Blog {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Debt Solution Products" web page. */
@@ -589,7 +590,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button10:hover {background: #eee;}
+  .button10:hover {background: rgb(183, 181, 165);}
   .DebtSolutionProducts {color: rgb(107, 107, 107);}
   
   
@@ -606,7 +607,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button11:hover {background: #eee;}
+  .button11:hover {background: rgb(183, 181, 165);}
   .Members {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Investors" web page. */
@@ -622,7 +623,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button12:hover {background: #eee;}
+  .button12:hover {background: rgb(183, 181, 165);}
   .Investors {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Developers" web page. */
@@ -638,7 +639,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button13:hover {background: #eee;}
+  .button13:hover {background: rgb(183, 181, 165);}
   .Developers {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "User Agreement" web page. */
@@ -654,7 +655,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button14:hover {background: #eee;}
+  .button14:hover {background: rgb(183, 181, 165);}
   .UserAgreement {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Privacy Policy" web page. */
@@ -670,7 +671,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button15:hover {background: #eee;}
+  .button15:hover {background: rgb(183, 181, 165);}
   .PrivacyPolicy {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Cookies Policy" web page. */
@@ -686,7 +687,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button16:hover {background: #eee;}
+  .button16:hover {background: rgb(183, 181, 165);}
   .CookiesPolicy {color: rgb(107, 107, 107);}
   
   
@@ -703,7 +704,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button17:hover {background: #eee;}
+  .button17:hover {background: rgb(183, 181, 165);}
   .SignIn {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Help Center" web page. */
@@ -719,7 +720,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button18:hover {background: #eee;}
+  .button18:hover {background: rgb(183, 181, 165);}
   .HelpCenter {color: rgb(107, 107, 107);}
   
   /* Assign selector button to div element for linking button2 to the "Guidelines" web page. */
@@ -735,7 +736,7 @@ body {
   color: rgb(255, 255, 255);  
   }
   
-  .button19:hover {background: #eee;}
+  .button19:hover {background: rgb(183, 181, 165);}
   .Guidelines {color: rgb(107, 107, 107);}
   
   #alignment2 {
