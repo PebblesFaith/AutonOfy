@@ -183,43 +183,21 @@ body {
 /* Setup second (2nd) paragraph flex container to houses inside one (1) paragraph class selector with padding. */
 .paragraph-flex-container1 > div {
     margin-top: 0px;
-    width: 750px;
+    width: 900px;
     background-color: rgb(255, 255, 255);
     padding: 25px;    
 }
 
 
 
-
+ /* Create selector for element to style a thin left border. */
 .border1 {
     border-left: 3px solid rgb(107, 107, 107);
-    background-color: rgb(235, 235, 235);
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color: rgb(255, 255, 255);
     color: rgb(107, 107, 107);  
     font-family: Book Antiqua serif;
     font-size: 17px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Create class paragraph selector (p1) in order to style the content. */
 .p1 {
@@ -250,7 +228,7 @@ body {
     font-size: 15px;                               
     font-family: 'Book Antiqua', Times, serif; 
     font-style: italic;   
-    background-color: rgb(224, 242, 213);
+    background-color: rgb(255, 255, 255);
     color: rgb(107, 107, 107);
     border: 2px;
   }
