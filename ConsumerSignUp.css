@@ -212,13 +212,13 @@ body {
 .column7 {
   flex: 33.33%;
   max-width: 33.33%;
-  
+  text-align: center;
   padding: 0 4px;
   text-align: left;
-  font-size: 15px;                               
+  font-size: 16px;                               
   font-family: 'Book Antiqua', Times, serif; 
-  font-style: italic;   
-  background-color: rgb(224, 242, 213);
+ 
+  background-color: rgb(255, 255, 255);
   color: rgb(107, 107, 107);
   border: 2px;
 }
@@ -254,50 +254,6 @@ body {
 
 
 
-#form1 {
-  
-  background-color: rgb(203, 241, 205);
-  height: 0px;
-  width: 110px;  
-  margin-top: 0px;
-  margin-left: 25px;
-  padding: 0px;
-  text-align:left;
-}
-label {
- 
-  font-family: 'Book Antiqua', Times, serif;;
-  font-size: 16px;
-  color: rgb(107, 107, 107);
-  height: 5px;
-  width: 95px;
-  margin-top: 25px;
-  margin-left: 5px;
-  text-align: left;
-  clear: both;
-  float:left;
-  margin-right:15px;
-}
-input {
-  display: flex;
-  flex-direction: row;
-  height: 35px;
-  width: 150px;
-  border: 2px solid rgb(107, 107, 107);
-  font-family: 'Book Antiqua', Times, serif;;
-  font-size: 16px;
-  margin-top: 10px;
-  float: left;
-}
-input[type=button] {
-  float:none;
-}
-
-
-
-
-
-
 
 
 
@@ -318,133 +274,6 @@ input[type=button] {
 
 }
 
-/* Assign selector button to div element for linking button20 to the "LearnMore1" web page. */
-.button20 {
-  border: none;
-  background-color: inherit;
-  padding: 10px 18px;
-  font-family: 'Book Antiqua', Times, serif;
-  font-size: 18px;
-  cursor: 16px;
-  cursor: pointer;
-  display: inline-block; 
-  color: rgb(255, 255, 255);   
-  }
-  
-  .button20:hover {background: rgb(183, 181, 165);}
-  .LearnMore1 {color: rgb(107, 107, 107);}
-
-  /* Assign selector button to div element for linking button21 to the "LearnMore2" web page. */
-.button21 {
-  border: none;
-  background-color: inherit;
-  padding: 10px 18px;
-  font-family: 'Book Antiqua', Times, serif;
-  font-size: 18px;
-  cursor: 16px;
-  cursor: pointer;
-  display: inline-block; 
-  color: rgb(255, 255, 255); 
-  }
-  
-  .button21:hover {background: rgb(183, 181, 165);}
-  .LearnMore2 {color: rgb(107, 107, 107);}
-
-   /* Assign selector button to div element for linking button22 to the "LearnMore3" web page. */
-.button22 {
-  border: none;
-  background-color: inherit;
-  padding: 10px 18px;
-  font-family: 'Book Antiqua', Times, serif;
-  font-size: 18px;
-  cursor: 16px;
-  cursor: pointer;
-  display: inline-block; 
-  color: rgb(255, 255, 255);
-}
-  
-  .button22:hover {background: rgb(183, 181, 165);}
-  .LearnMore3 {color: rgb(107, 107, 107);}
-  
-/* Main flex box container to store "Company Membership SignUp" into sub-containers. */
-.flex-container2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;  
-  background-color: rgb(255, 255, 255); 
-  align-items: center;
-  justify-content: center;
-}
-
-/* Sub-container flex box to store "Company Membership SignUp" content. */
-.flex-container2 > div {
-  background-color: rgb(255, 255, 255);
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  line-height: 25px;
-  font-size: 19px;
-  margin-left: center;
-  border: none; 
-  font-family: 'Book Antiqua', Times, serif; 
-  font-style: italic; 
-}
-
-/* Assign selector button to div element for linking button5 to the "Company Membership SignUp" web page. */
-.button5 {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-family: Book Antiqua;
-    font-size: 16px;
-    cursor: 16px;
-    cursor: pointer;
-    display: inline-block;   
-    color: rgb(107, 107, 107);
-}
-
-.button5:hover {background: #eee;}
-.companysignup {color: rgb(107, 107, 107);}
-
-/* Main flex box container to store "Consumer SignUp" into sub-containers. */
-.flex-container3 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;  
-  background-color: rgb(255, 255, 255); 
-  align-items: center;
-  justify-content: center;
-}
-
-/* Sub-container flex box to store "Consumer SignUp" content. */
-.flex-container3 > div {
-  background-color: rgb(255, 255, 255);
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  line-height: 25px;
-  font-size: 19px;
-  margin-left: center;
-  border: none; 
-  font-family: 'Book Antiqua', Times, serif; 
-  font-style: italic; 
-}
-
-/* Assign selector button to div element for linking button5 to the "Consumer SignUp" web page. */
-.button6 {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-family: Book Antiqua;
-    font-size: 16px;
-    cursor: 16px;
-    cursor: pointer;
-    display: inline-block; 
-    color: rgb(107, 107, 107);   
-}
-
-.button6:hover {background: #eee;}
-.consumersignup {color: rgb(107, 107, 107);}
 
 /* Main flex box container for storing individual buttons sub-containers. */
 .flex-container4 {
