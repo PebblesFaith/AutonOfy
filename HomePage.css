@@ -180,6 +180,15 @@ body {
   justify-content: center;
 }
 
+/*Create paragraph two (2) to set font size, family, style and color for photo by Paul Thomas on Unsplash.com. */
+.p2 {
+  font-size: 13px;
+  font-style: italic;
+  font-family: 'Book Antiqua', Times, serif;
+  color: rgb(107, 107, 107); 
+
+}
+
 /* Assign Selector to Sub-container element to store "istockphoto-503840542-1024x1024 Like1" picture into sub-containers */
 .flex-containerPic2 > div {
   background-color: rgb(255, 255, 255);
