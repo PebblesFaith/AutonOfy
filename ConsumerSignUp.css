@@ -832,6 +832,123 @@ margin-bottom: 30px;
 
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Book Antiqua', Times, serif;
+}
+
+
+
+.flex-containerPic3 {
+ 
+  padding: 30px;
+  flex-direction: row;  
+  background-color: rgb(255, 255, 255); 
+  align-items: center;
+  justify-content: center;
+  background: url('c:/Users/sarai/Documents/xianjuan-hu-455879-unsplash.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact-form1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(107, 107, 107, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;   
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-field,
+.msg {
+  width: 48%;
+}
+
+.input-field .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #e0f2d5;
+  padding: 10px;
+  color: #e0f2d5;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  color: #e0f2d5;
+}
+
+::-moz-input-placeholder {
+  color: #e0f2d5;
+}
+
+::-ms-input-placeholder {
+  color: #e0f2d5;
+}
+
+.btn {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .contact-form1 {
+      flex-direction: column;        
+  }
+  .msg textarea {
+      height: 80px;
+  }
+
+  .input-field,
+  .msg {
+      width:100%;
+  }
+}
+
+#today2 {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #e0f2d5;
+  padding: 10px;
+  color: #e0f2d5;
+  width: 100%;
+}
+
+select {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #e0f2d5;
+  padding: 10px;
+  color: #e0f2d5;
+  width: 100%;
+}
+
+
+
+
 
 
 
