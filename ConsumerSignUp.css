@@ -852,11 +852,11 @@ margin-bottom: 30px;
   justify-content: center;
   background: url('c:/Users/sarai/Documents/xianjuan-hu-455879-unsplash.jpg') no-repeat top center;
   background-size: cover;
-  height: 100vh;
+  height: 1600px;
 }
 
 .contact-form1 {
-  max-width: 1000px;
+  max-width: 1000px;  
   margin: 0 auto;
   background: rgba(107, 107, 107, 0.8);
   padding: 30px;
@@ -945,6 +945,16 @@ select {
   padding: 10px;
   color: #e0f2d5;
   width: 100%;
+}
+
+/*Create paragraph two (2) to set font size, family, style and color for photo by Paul Thomas on Unsplash.com. */
+.p2 {
+  font-size: 13px;
+  font-style: italic;
+  font-family: 'Book Antiqua', Times, serif;
+  color: rgb(107, 107, 107); 
+  text-align: center;
+
 }
 
 
