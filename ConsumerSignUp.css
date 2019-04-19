@@ -843,8 +843,7 @@ margin-bottom: 30px;
 
 
 
-.flex-containerPic3 {
- 
+.flex-containerPic3 { 
   padding: 25px;
   flex-direction: row;  
   background-color: rgb(255, 255, 255); 
@@ -946,7 +945,6 @@ select {
   font-family: 'Book Antiqua', Times, serif;
   color: rgb(107, 107, 107); 
   text-align: center;
-
 }
 
 /*Create css language to cancel button one (1) when users click onto the cancel button one (1) and clear input details, this will return user to the AutonOfy's homepage.*/
