@@ -1028,6 +1028,7 @@ body {
   color: rgb(107, 107, 107);  
   font-family: Book Antiqua serif;
   font-size: 17px;
+  margin-left: 50px;
 }
 
  /* The radio button container for users Accepted Terms Agreements. */
@@ -1043,8 +1044,9 @@ body {
   -ms-user-select: none;
   user-select: none;
   color: rgb(107, 107, 107);  
-  font-family: Book Antiqua serif;
+  font-family: 'Book Antiqua', Times, serif; 
   font-size: 18px;
+  margin-left: 25px;
 }
 
 /* Hide the browser's default radio button */
@@ -1119,11 +1121,12 @@ body {
 }
 
 .accepterms-container {
-  margin-top: 5px;
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   height: 100%; 
+  margin-left: 25px;
 }
 
 .row8 { 
@@ -1131,13 +1134,20 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-right: 50px;
+  margin-left: 75px;
 }
 
 .column8 {                                       
  display: flex;
  flex-direction: column;
  flex-basis: 100%;
+ font-family: 'Book Antiqua', Times, serif; 
+  background-color: rgb(255, 255, 255);
+  color: rgb(107, 107, 107);
+  text-decoration-style: solid;
+  line-height: 20px;
+  font-size: 16px;
+  font-style: bold oblique;
 
 }
 
@@ -1226,12 +1236,15 @@ font-style: italic;
 color: rgb(107, 107, 107);
 }
 
+
+/* Main flex box container to store "AutonOfy's Terms of Services, User Agreements and Privacy Policy" contents.*/
 .column9 {                                       
   display: flex;
   flex-direction: column;
   flex-basis: 100%; 
  }
 
+ /* Create paragraph four (4) css class for users reasons why he or she agree to AutonOfy's Accept Terms Agreements.*/
  .p4 {
   font-family: 'Book Antiqua', Times, serif; 
   background-color: rgb(255, 255, 255);
@@ -1242,7 +1255,31 @@ color: rgb(107, 107, 107);
   font-style: bold oblique; 
  }
 
+/* Create paragraph five (5) css class for users reasons why he or she agree to AutonOfy's Accept Terms Agreements.*/
  .p5 {
+  font-family: 'Book Antiqua', Times, serif; 
+  background-color: rgb(255, 255, 255);
+  color: rgb(107, 107, 107);
+  text-decoration-style: solid;
+  line-height: 20px;
+  font-size: 16px;
+  font-style: bold oblique; 
+ }
+
+ /* Create paragraph six (6) css class for users reasons why he or she agree to AutonOfy's Accept Terms Agreements.*/
+ .p6 {
+  font-family: 'Book Antiqua', Times, serif; 
+  background-color: rgb(255, 255, 255);
+  color: rgb(106, 197, 110);
+  text-decoration-style: solid;
+  line-height: 25px;
+  font-size: 16px;
+  font-style: bold oblique;
+  text-align: center;
+}
+
+ /* Create paragraph seven (7) css class for users reasons why he or she disagree to AutonOfy's Accept Terms Agreements.*/
+.p7 {
   font-family: 'Book Antiqua', Times, serif; 
   background-color: rgb(255, 255, 255);
   color: rgb(107, 107, 107);
@@ -1251,6 +1288,18 @@ color: rgb(107, 107, 107);
   font-size: 16px;
   font-style: bold oblique; 
  }
+
+ /* Create paragraph eight (8) css class for users reasons why he or she disagree to AutonOfy's Accept Terms Agreements.*/
+ .p8 {
+  font-family: 'Book Antiqua', Times, serif; 
+  background-color: rgb(255, 255, 255);
+  color: rgb(107, 107, 107);
+  text-decoration-style: solid;
+  line-height: 25px;
+  font-size: 15px;
+  font-style: bold oblique; 
+ }
+
   
   
 
