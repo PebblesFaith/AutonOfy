@@ -8,6 +8,7 @@
         <title>Accept Terms</title>
 
         <link href="AcceptTerms1.css" rel="stylesheet" />
+        <script src="AcceptTerms1.js"></script>
     
     </head>
     
@@ -79,8 +80,12 @@
 
             <div class="border1">                        
                 <label class="radio-container">By clicking inside the radiobox and I hereby:
-                    <input type="radio" checked="checked" name="radio">
-                    <span class="radiomark"></span>                                             
+                
+                    <input type="radio" checked="checked" name="radio"
+                    onclick="goTerms()" />
+                  
+                    <span class="radiomark"></span>  
+                                             
                 </label>
                 <br> 
                 <div class="row8">   
