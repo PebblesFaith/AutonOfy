@@ -841,9 +841,7 @@ margin-bottom: 30px;
   font-family: 'Book Antiqua', Times, serif;
 }
 
-
-
-.flex-containerPic3 { 
+.picture-containerPic1 { 
   padding: 25px;
   flex-direction: row;  
   background-color: rgb(255, 255, 255); 
@@ -851,92 +849,247 @@ margin-bottom: 30px;
   justify-content: center;
   background: url('c:/Users/sarai/Documents/Module 2 Project/Pictures/ryoji-iwata-1205840-unsplash.jpg') no-repeat top center;
   background-size: cover; 
-  height: 1600px;
-}
-
-.contact-form1 {
-  max-width: 1000px;  
-  margin: 0 auto;
-  background: rgba(107, 107, 107, 0.8);
-  padding: 25px;
-  border-radius: 5px;
-  display: flex;   
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
-}
-
-.input-field {
-  display: flex;
-  flex-direction: column;
-  margin-right: 4%;
-}
-
-.input-field,
-.msg {
-  width: 48%;
-}
-
-.input-field .input,
-.msg textarea {
-  margin: 10px 0;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid #e0f2d5;
-  padding: 10px;
-  color: #e0f2d5;
+  height: 100%;
   width: 100%;
 }
 
-.msg textarea {
-  height: 212px;
+.users-Form { 
+    max-width: 750px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+    margin-top: 0px;
 }
 
+.usersInput-Field {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 4%;
+  width: 48%;
+}
+
+.userInput-Field .input {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+
+}
+
+#firstName, #middleName, #lastName
+ {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+}
+
+#cancelButton, a:link {
+  background: rgb(226, 222, 204);
+  text-align: center;
+  padding: 6px;
+  border-radius: 2px;
+  color: rgb(133, 125, 93);
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  max-height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#clearButton {
+  background: rgb(226, 222, 204);
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  color: rgb(133, 125, 93);
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  max-height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#submitButton {
+  background: rgb(226, 222, 204);
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  color: rgb(133, 125, 93);
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  max-height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#outputFirstName, #outputMiddleName, #outputLastName, #outputUsersDOB, #outputUsersBirthSex, #outputUsersGender, #outputUsersEmailAddress, #outputConfirmUsersEmailAddress, #outputUsersId, #outputUsersPassword, #outputUsersConfirmPassword
+{
+  color: rgb(226, 222, 204);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+} 
+
+#DOB, #label {
+  display: inline-block;
+  color: rgb(226, 222, 204);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+label {
+  display: block;
+}
+label > p {
+  display: inline-block;
+}
+
+#usersDOB {
+  margin: 10px 0;
+  background: transparent;
+  border: 0; 
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px; 
+  text-align: left;
+}
+
+#usersBirthSex {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersGender {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersEmailAddress {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersConfirmEmailAddress {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersId {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersPassword {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+#usersConfirmPassword {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(226, 222, 204);
+  padding: 10px;
+  color: rgb(226, 222, 204);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+option {
+  background: transparent;
+  border: 0;
+  color: rgb(133, 125, 93);
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+
+
 ::-webkit-input-placeholder {
-  color: #e0f2d5;
+  color: rgb(226, 222, 204);
 }
 
 ::-moz-input-placeholder {
-  color: #e0f2d5;
+  color: rgb(226, 222, 204);
 }
 
 ::-ms-input-placeholder {
-  color: #e0f2d5;
+  color: rgb(226, 222, 204);
 }
 
-
-
 @media (max-width: 600px) {
-  .contact-form1 {
+  .users-Form {
       flex-direction: column;        
   }
-  .msg textarea {
-      height: 80px;
-  }
-
-  .input-field,
-  .msg {
+  
+  .usersInput-Field  {
       width:100%;
   }
 }
 
-#today2 {
-  margin: 10px 0;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid #e0f2d5;
-  padding: 10px;
-  color: #e0f2d5;
-  width: 100%;
-}
 
-select {
-  margin: 10px 0;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid #e0f2d5;
-  padding: 10px;
-  color: #e0f2d5;
-  width: 100%;
-}
 
 /*Create paragraph two (2) to set font size, family, style and color for photo by Xianjuan Hu on Unsplash.com. */
 .p2 {
@@ -946,60 +1099,4 @@ select {
   color: rgb(107, 107, 107); 
   text-align: center;
 }
-
-/*Create css language to cancel button one (1) when users click onto the cancel button one (1) and clear input details, this will return user to the AutonOfy's homepage.*/
-.cancelbutton1 {
-  background: rgba(107, 107, 107, 0.8);
-  font-size: 16px;                               
-  font-family: 'Book Antiqua', Times, serif; 
-  text-align: center;
-  padding: 15px;
-  border-radius: 3px;
-  color: #e0f2d5;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-/*Create css language to clear button one (1) after, an users click onto the clear button one (1) all users' input data details will clear or reset to start over.*/
-.clearbutton1, a:link {
-  background: rgba(107, 107, 107, 0.8);
-  font-size: 16px;                               
-  font-family: 'Book Antiqua', Times, serif; 
-  text-align: center;
-  padding: 15px;
-  border-radius: 3px;
-  color: #e0f2d5;
-  cursor: pointer;
-  text-transform: uppercase;
-  text-decoration: none;
-  
-}
-
-/*Create css language to verify users' email addresses (submitbutton1) after, an users click onto verify email address button; users most verify their email address with AutonOfy verfication Codes.*/
-.submitbutton1 {
-  background: rgba(107, 107, 107, 0.8);
-  font-size: 16px;                               
-  font-family: 'Book Antiqua', Times, serif; 
-  text-align: center;
-  padding: 15px;
-  border-radius: 3px;
-  color: #e0f2d5;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
