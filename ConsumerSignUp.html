@@ -74,95 +74,111 @@
         </div>
 
         <br>
-        <div class="flex-containerPic3">
-            <div class="inputcontainer">
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="First Name" />                                 
-                    </div>
-        
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Middle Name" />
-                    </div>
-        
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Last Name" />
-                    </div>
-                </div> 
-        
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <input id="today2" type="date">                                 
-                    </div>
-        
-                    <div class="input-field">
-                    <select class="input">
-                        <option value="sex">Birth Sex</option>
+        <div class="picture-containerPic1"> 
+            <p class="p2">Photo by Ryoji Iwata on Unsplash.com</p>
+
+          
+            <div class="users-Form">
+                <div class="usersInput-Field">
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    
+                </div>
+
+                <div class="usersInput-Field">
+                    <input type="text" id="middleName" placeholder="Middle Name" required>
+                </div>
+
+                <div class="usersInput-Field">
+                    <input type="text" id="lastName" placeholder="Last Name" required/>
+                </div>
+                        
+            </div>
+
+            <div class="users-Form">
+                <div class="usersInput-Field">
+                    <label id=DOB>Date of Birth: 
+                    <input type="date" id="usersDOB" required/></label>                               
+                </div>
+          
+                <div class="usersInput-Field">                   
+                    <select id="usersBirthSex" name="Birth Sex" required>
+                        <option value="">Birth Sex</option>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                     </select>
-                    </div>
-        
-                    <div class="input-field">
-                        <select class="input">
-                            <option value="sex">Gender Identity</option>
-                            <option value="female">Female</option>
-                            <option value="male">Male</option>
-                            <option value="male">Non-Binary Gender</option>
-                            <option value="male">Decline to Answer</option>
-                        </select>              
-                    </div>
-                </div> 
+                </div>
             
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Email Address" />                                 
-                    </div>
+                <div class="usersInput-Field">
+                    <select id="usersGender" name="Gender" required>
+                        <option value="">Gender Identity</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="nonBinary">Non-Binary</option>
+                        <option value="declineQuestion">Decline to Answer</option>
+                    </select>              
+                </div>
+            </div>
+
+            <div class="users-Form">
+                <div class="usersInput-Field">
+                    <input type="text" id="usersId"  placeholder="Create User ID" required>                                 
+                </div>
+            </div>
+               
+            <div class="users-Form">
+                <div class="usersInput-Field">  
+                    <input type="text" id="usersEmailAddress" placeholder="Email Address" required/>                                 
+                </div>
         
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Confirm Email Address" />
-                    </div>
+                <div class="usersInput-Field">  
+                    <input type="text" id="usersConfirmEmailAddress" placeholder="Confirm Email Address" required/>
+                </div>   
+            </div>
+
+            <div class="users-Form">
+                <div class="usersInput-Field"> 
+                    <input type="text" id="usersPassword"  placeholder="Password" required/>                                 
+                </div>
+    
+                <div class="usersInput-Field"> 
+                    <input type="text" id="usersConfirmPassword"  placeholder="Confirm Password" required/>
+                </div>
+            </div>
+            
+            <div class="users-Form">
+                <div class="usersInput-Field">
+                    <a id="cancelButton"  href ="c:/Users/sarai/Documents/Module 2 Project/AutonOfy/HomePage.html">Cancel</a> 
+                </div>           
+
+                <div class="usersInput-Field">
+                    <button id="clearButton" onclick="clearFunction()">Clear</button> 
+                </div>           
+
+                <div class="usersInput-Field">
+                    <button id="submitButton" onclick="submitFunction()">Verify Account</button>               
                 </div> 
-        
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Create User ID" />                                 
-                    </div>
+            </div>
+
+            <div class="users-Form">
+                <div id="usersInput-Field">
+                    <p id="outputFirstName"></p>
+                    <p id="outputMiddleName"></p>
+                    <p id="outputLastName"></p>
+                    <p id="outputUsersDOB"></p>
+                    <p id="outputUsersBirthSex"></p>
+                    <p id="outputUsersGender"></p>
+                    <p id="outputUsersId"></p>
+                    <p id="outputUsersEmailAddress"></p>
+                    <p id="outputConfirmUsersEmailAddress"></p>
+                    <p id="outputUsersPassword"></p>
+                    <p id="outputUsersConfirmPassword"></p>
                     
-                </div> 
-        
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Password" />                                 
-                    </div>
-        
-                    <div class="input-field">
-                        <input class="input" type="text" placeholder="Confirm Password" />
-                    </div>
                 </div>
-
-                <div class="contact-form1">
-                    <div class="input-field">
-                        <a class="cancelbutton1" href ="c:/Users/sarai/Documents/Module 2 Project/AutonOfy/HomePage.html">Cancel</a> 
-                    </div>
-                   
-                    <div class="input-field">
-                        <div class="clearbutton1">Clear</div>
-                    </div>
-                    <div class="input-field">
-                        <a class="submitbutton1" href ="c:/Users/sarai/Documents/Module 2 Project/AutonOfy/AcceptTerms1.html">Verify Email Account</a>                       
-                    </div> 
-                </div>
-
-
-
 
             </div>
         </div>
 
-        <div>  
-            <p class="p2">Photo by Ryoji Iwata on Unsplash.com</p>
-        </div>
+     
 
         <div class="flex-containerPic1">  
             <div>         
