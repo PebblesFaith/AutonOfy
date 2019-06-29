@@ -1,3 +1,5 @@
+ 
+
 function clearFunction() {
     document.getElementById("firstName").value = ""; 
     document.getElementById("firstName").placeholder = "First Name";    
@@ -37,7 +39,7 @@ function clearFunction() {
     document.getElementById("outputUsersPassword").innerHTML = "";
 
     document.getElementById("usersConfirmPassword").value = ""; 
-    document.getElementById("usersConfirmPassword").placeholder = "Password";    
+    document.getElementById("usersConfirmPassword").placeholder = "Confirm Password";    
     document.getElementById("outputUsersConfirmPassword").innerHTML = "";    
     
 }
@@ -50,7 +52,7 @@ document.querySelector("#usersDOB").valueAsDate = new Date();
 /* Users input data are stored and displayed, as output data prints onto the 
    guessing game webpage. */
 function submitFunction() {
-    var usersFirstName = document.getElementById("firstName").value;
+    var usersFirstName = document.getElementById("firstName").value;    
     document.getElementById("outputFirstName").innerHTML = usersFirstName;
 
     var usersMiddleName = document.getElementById("middleName").value;
@@ -77,16 +79,30 @@ function submitFunction() {
     var usersConfirmEmail = document.getElementById("usersConfirmEmailAddress").value;
     document.getElementById("outputConfirmUsersEmailAddress").innerHTML = usersConfirmEmail;
 
+    
+
     var usersCreatePassword = document.getElementById("usersPassword").value;
     document.getElementById("outputUsersPassword").innerHTML = usersCreatePassword;
 
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
 
+
+    if (usersEmail != usersConfirmEmail) {
+        alert("Your create email is not similar to your confirm email. Please enter the same emails in both fields.");
+         return false;
+    }
+   
     if (usersCreatePassword != usersCreateConfirmPassword) {
-         alert("You first Passwords is not similar with 2nd password. Please enter same password in both");
-          return false; }
+         alert("Your create password is not similar to your confirm email. Please enter the same passwords in both fields.");
+          return false;
+    }
+
+     else {
            return true;
+    }
+
+
     
 
     
