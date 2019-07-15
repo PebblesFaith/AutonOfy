@@ -869,7 +869,6 @@ margin-bottom: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   margin-right: 4%;
   width: 48%;
 }
@@ -878,9 +877,9 @@ margin-bottom: 30px;
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
 
 }
@@ -890,9 +889,9 @@ margin-bottom: 30px;
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
 }
 
@@ -940,14 +939,14 @@ margin-bottom: 30px;
 
 #outputFirstName, #outputMiddleName, #outputLastName, #outputUsersDOB, #outputUsersBirthSex, #outputUsersGender, #outputUsersEmailAddress, #outputConfirmUsersEmailAddress, #outputUsersId, #outputUsersPassword, #outputUsersConfirmPassword
 {
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
 } 
 
 #DOB, #label {
   display: inline-block;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
 }
@@ -963,46 +962,60 @@ label > p {
   margin: 10px 0;
   background: transparent;
   border: 0; 
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px; 
   text-align: left;
 }
 
+/* Create dropdown CSS stylesheet for users to select their birth sex and make invisible the control dropdown list. */
 #usersBirthSex {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
-  padding: 10px;
-  color: rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
+  padding: 19px;
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
-}
 
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	 -o-appearance: none;
+    appearance: none;  
+ }
+
+/* Create dropdown CSS stylesheet for users to select their gender identity sex and make invisible the control dropdown list. */ 
 #usersGender {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
-  padding: 10px;
-  color: rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
+  padding: 19px;
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
+
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	 -o-appearance: none;
+    appearance: none;  
 }
 
 #usersEmailAddress {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -1012,9 +1025,9 @@ label > p {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -1024,9 +1037,9 @@ label > p {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -1036,9 +1049,9 @@ label > p {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -1048,9 +1061,9 @@ label > p {
   margin: 10px 0;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid rgb(226, 222, 204);
+  border-bottom: 2px solid rgb(209, 196, 138);
   padding: 10px;
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
@@ -1068,15 +1081,15 @@ option {
 
 
 ::-webkit-input-placeholder {
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
 }
 
 ::-moz-input-placeholder {
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
 }
 
 ::-ms-input-placeholder {
-  color: rgb(226, 222, 204);
+  color: rgb(209, 196, 138);
 }
 
 @media (max-width: 600px) {
