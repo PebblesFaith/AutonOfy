@@ -44,14 +44,13 @@ function clearFunction() {
     
 }
 
-
 let today = new Date().toISOString().substr(0, 10);
 document.querySelector("#today").value = today;
 document.querySelector("#usersDOB").valueAsDate = new Date();
 
 /* Users input data are stored and displayed, as output data prints onto the 
    guessing game webpage. */
-function submitFunction() {
+function submitFunction(usersEmailAddress) {
 
     var usersFirstName = document.getElementById("firstName").value;    
     document.getElementById("outputFirstName").innerHTML = usersFirstName;
@@ -78,9 +77,7 @@ function submitFunction() {
     document.getElementById("outputUsersEmailAddress").innerHTML = usersEmail;
 
     var usersConfirmEmail = document.getElementById("usersConfirmEmailAddress").value;
-    document.getElementById("outputConfirmUsersEmailAddress").innerHTML = usersConfirmEmail;
-
-    
+    document.getElementById("outputConfirmUsersEmailAddress").innerHTML = usersConfirmEmail;    
 
     var usersCreatePassword = document.getElementById("usersPassword").value;
     document.getElementById("outputUsersPassword").innerHTML = usersCreatePassword;
@@ -88,57 +85,64 @@ function submitFunction() {
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
 
-    var emailPattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-
     // Create if statements, in order to verify all users have entered texts into the required fields.
-    if (usersFirstName == "") {
-        alert("This field is required, you must enter your First Name.'")
+    if (usersFirstName == null || usersFirstName == "" && usersFirstName.length < 2) {
+        //alert("This field is required, you must enter your First Name.'")        
+        document.getElementById("outputFirstNameField").innerHTML = "First Name is require field.";
         return false;
     }
-    if (usersLastName == "") {
+    if (userLastName == null || usersLastName == "") {
         alert("This field is required, you must enter your 'Last Name.'")
         return false;
     }
-    if (dobUsers == "") {
+    if (dobUsers == null || dobUsers == "") {
         alert("This field is required, you must enter your 'Date of Birth'.")
         return false;
     }
-    if (usersBirthSexChoice == "") {
+    if ( usersBirthSexChoice == null || usersBirthSexChoice == "") {
         alert("This field is required, you must enter your 'Birth Sex'.")
         return false;
     }
-    if (usersGenderChoice == "") {
+    if (usersGenderChoice == null || usersGenderChoice == "") {
         alert("This field is required, you must enter your 'Gender Identity'.")
         return false;
     }
-    if (usersNameId == "") {
+    if (usersNameId == null || usersNameId == "") {
         alert("This field is required, you must enter your 'User Name'.")
         return false;
     }
-    if (usersEmail == "") {
+    if (usersEmail == null || usersEmail == "") {
         alert("This field is required, you must enter your 'Email Address'.")
         return false;
     }
-    if (usersConfirmEmail == "") {
+    if ( usersConfirmEmail == null || usersConfirmEmail == "") {
         alert("This field is required, you must enter your 'Confirm Email Address'.")
         return false;
     }
-    if (usersCreatePassword == "") {
-        alert("This field is required, you must enter your 'Password'.")
+
+    // Create users validation passwords that must be at least eight (8) character long and no empty password field is allowed.
+    if (usersCreatePassword.length < 8 || usersCreatePassword == "") {
+        alert("This field is required, you must enter your 'Password' to be at least 8 character long.");
         return false;
     }
-    if (usersCreatePassword == "") {
-        alert("This field is required, you must enter your 'Confirm Password'.")
-        return false;
-    }   
 
-   
-    if (!emailPattern.test(usersEmail.value)) {
-        alert("You have entered the incorrect 'Email Address' format, re-enter your correct email address format.");
-        usersEmail.focus;
+    // Create users validation confirm passwords that must be at least eight (8) character long and no empty confirm password field is allowed.
+    if (usersCreateConfirmPassword.length < 8 || usersCreateConfirmPassword == "") {
+        alert("This field is required, you must enter your 'Confirm Password' to be at least 8 character long.");
+        return false;
+    }
+
+    
+    var emailPattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    if (emailPattern.test(usersEmailAddress)) {
+        //alert("You have entered the incorrect 'Email Address' format, re-enter your correct email address format 1111.");
+        document.getElementById("usersEmailAddress").innerHTML = "This email is invalid.";
         return false; 
         }
+
+
+ 
         
 
         
@@ -158,7 +162,8 @@ function submitFunction() {
         document.getElementById("outputConfirmUsersEmailAddress").innerHTML = "";
          return false;
     }
-   
+
+
 // Create an if statement to verify, if both users password and confirm password input fields match and if not an alert message will appear for corrections.
     if (usersCreatePassword != usersCreateConfirmPassword) {
         
@@ -175,12 +180,18 @@ function submitFunction() {
     }
 
      else {
+
+        document.getElementById("outputFirstNameField").innerHTML = "";
+
+
         // return true;
         // If no users entries are displayed, as an errorrous entries than the users are hyperlink to the AcceptTerms1 webpage.
         // Create a urlTerms variable in order to create users interactive hyperlink url connection.
         var urlTerms = 'c:/Users/sarai/Documents/Module 2 Project/AutonOfy/AcceptTerms1.html';
         //The location will open urlTerms in AcceptTerms1 webpage.
         location = urlTerms;
+
+        
 
     }
 
