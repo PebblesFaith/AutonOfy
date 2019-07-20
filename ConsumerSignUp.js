@@ -4,14 +4,18 @@ function clearFunction() {
     document.getElementById("firstName").value = ""; 
     document.getElementById("firstName").placeholder = "First Name";    
     document.getElementById("outputFirstName").innerHTML = "";
+    document.getElementById("outputFirstNameField").innerHTML = "";
 
     document.getElementById("middleName").value = "";   
     document.getElementById("middleName").placeholder = "Middle Name";     
     document.getElementById("outputMiddleName").innerHTML = "";
+    document.getElementById("outputMiddleNameField").innerHTML = "";
 
     document.getElementById("lastName").value = "";   
     document.getElementById("lastName").placeholder = "last Name";    
     document.getElementById("outputLastName").innerHTML = "";
+    document.getElementById("outputLastNameField").innerHTML = "";
+
 
     document.getElementById("usersDOB").value = "";
     document.getElementById("outputUsersDOB").innerHTML = "";  
@@ -85,16 +89,49 @@ function submitFunction(usersEmailAddress) {
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
 
-    // Create if statements, in order to verify all users have entered texts into the required fields.
-    if (usersFirstName == null || usersFirstName == "" && usersFirstName.length < 2) {
-        //alert("This field is required, you must enter your First Name.'")        
-        document.getElementById("outputFirstNameField").innerHTML = "First Name is require field.";
+    // Create users first name if statements, in order to verify all users have entered texts into the required first name fields.
+    if (usersFirstName == null || usersFirstName == "" || usersFirstName.length < 3) {        
+        // Add node white style color to the document message.
+        document.getElementById("outputFirstNameField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputFirstNameField").innerHTML = "First Name is a require field.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputFirstNameField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.
         return false;
     }
-    if (userLastName == null || usersLastName == "") {
-        alert("This field is required, you must enter your 'Last Name.'")
+
+    if (usersMiddleName == null || usersMiddleName == "" || usersFirstName.length < 0) {          
+        // Add node white style color to the document message.
+        document.getElementById("outputMiddleNameField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputMiddleNameField").innerHTML = "If applicable, do you have a middle name?";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputMiddleNameField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.
         return false;
     }
+
+    if (usersLastName == null || usersLastName == "" || usersLastName.length < 2) {
+        //alert("This field is required, you must enter your 'Last Name.'")
+        document.getElementById("outputLastNameField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputLastNameField").innerHTML = "Last Name is a require field.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputLastNameField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.
+        return false;
+    }
+
     if (dobUsers == null || dobUsers == "") {
         alert("This field is required, you must enter your 'Date of Birth'.")
         return false;
@@ -181,7 +218,8 @@ function submitFunction(usersEmailAddress) {
 
      else {
 
-        document.getElementById("outputFirstNameField").innerHTML = "";
+        
+        
 
 
         // return true;
