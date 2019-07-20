@@ -937,7 +937,7 @@ margin-bottom: 30px;
   font-size: 12px;
 }
 
-#outputFirstName, #outputFirstNameField, #outputMiddleName, #outputLastName, #outputUsersDOB, #outputUsersBirthSex, #outputUsersGender, #outputUsersEmailAddress, #outputConfirmUsersEmailAddress, #outputUsersId, #outputUsersPassword, #outputUsersConfirmPassword
+#outputFirstName, #outputFirstNameField, #outputMiddleName, #outputMiddleNameField, #outputLastName, #outputLastNameField, #outputUsersDOB, #outputUsersBirthSex, #outputUsersGender, #outputUsersEmailAddress, #outputConfirmUsersEmailAddress, #outputUsersId, #outputUsersPassword, #outputUsersConfirmPassword
 {
   color: rgb(209, 196, 138);
   font-family: 'Times New Roman', Times, serif;
