@@ -16,7 +16,6 @@ function clearFunction() {
     document.getElementById("outputLastName").innerHTML = "";
     document.getElementById("outputLastNameField").innerHTML = "";
 
-
     document.getElementById("usersDOB").value = "";
     document.getElementById("outputUsersDOB").innerHTML = "";
     document.getElementById("outputUsersDOBField").innerHTML = "";  
