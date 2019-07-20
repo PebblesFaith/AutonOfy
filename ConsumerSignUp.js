@@ -18,17 +18,21 @@ function clearFunction() {
 
 
     document.getElementById("usersDOB").value = "";
-    document.getElementById("outputUsersDOB").innerHTML = "";  
+    document.getElementById("outputUsersDOB").innerHTML = "";
+    document.getElementById("outputUsersDOBField").innerHTML = "";  
 
     document.getElementById("usersBirthSex").value = "";      
     document.getElementById("outputUsersBirthSex").innerHTML = "";
+    document.getElementById("outputUsersBirthSexField").innerHTML = "";
 
     document.getElementById("usersGender").value = "";      
     document.getElementById("outputUsersGender").innerHTML = "";
+    document.getElementById("outputUsersGenderField").innerHTML = "";
 
     document.getElementById("usersId").value = ""; 
     document.getElementById("usersId").placeholder = "Create User Id";    
     document.getElementById("outputUsersId").innerHTML = "";
+    document.getElementById("outputUsersIdField").innerHTML = "";
 
     document.getElementById("usersEmailAddress").value = ""; 
     document.getElementById("usersEmailAddress").placeholder = "Email Address";    
@@ -94,7 +98,7 @@ function submitFunction(usersEmailAddress) {
         // Add node white style color to the document message.
         document.getElementById("outputFirstNameField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors.          
-        document.getElementById("outputFirstNameField").innerHTML = "First Name is a require field.";
+        document.getElementById("outputFirstNameField").innerHTML = "Your 'First Name' is a require field.";
         // Add set time out node document to clear meassage after seven (7) seconds.
         setTimeout(function() {        
         document.getElementById("outputFirstNameField").innerHTML = " ";
@@ -108,7 +112,7 @@ function submitFunction(usersEmailAddress) {
         // Add node white style color to the document message.
         document.getElementById("outputMiddleNameField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors.          
-        document.getElementById("outputMiddleNameField").innerHTML = "If applicable, do you have a middle name?";
+        document.getElementById("outputMiddleNameField").innerHTML = "If applicable, your 'Middle Name' is a require field";
         // Add set time out node document to clear meassage after seven (7) seconds.
         setTimeout(function() {        
         document.getElementById("outputMiddleNameField").innerHTML = " ";
@@ -119,10 +123,10 @@ function submitFunction(usersEmailAddress) {
     }
 
     if (usersLastName == null || usersLastName == "" || usersLastName.length < 2) {
-        //alert("This field is required, you must enter your 'Last Name.'")
+        // Add node white style color to the document message.
         document.getElementById("outputLastNameField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors.          
-        document.getElementById("outputLastNameField").innerHTML = "Last Name is a require field.";
+        document.getElementById("outputLastNameField").innerHTML = "Your 'Last Name' is a require field.";
         // Add set time out node document to clear meassage after seven (7) seconds.
         setTimeout(function() {        
         document.getElementById("outputLastNameField").innerHTML = " ";
@@ -133,19 +137,58 @@ function submitFunction(usersEmailAddress) {
     }
 
     if (dobUsers == null || dobUsers == "") {
-        alert("This field is required, you must enter your 'Date of Birth'.")
-        return false;
+         // Add node white style color to the document message.
+         document.getElementById("outputUsersDOBField").style.color = "#ffffff"; 
+         // Add node document message, as an alert to users text errors.          
+         document.getElementById("outputUsersDOBField").innerHTML = "Your 'Date of Birth' is a require field.";
+         // Add set time out node document to clear meassage after seven (7) seconds.
+         setTimeout(function() {        
+         document.getElementById("outputUsersDOBField").innerHTML = " ";
+         },
+         7000);
+         // Return false, if statement is not true.
+         return false;
     }
+
     if ( usersBirthSexChoice == null || usersBirthSexChoice == "") {
-        alert("This field is required, you must enter your 'Birth Sex'.")
+        // Add node white style color to the document message.
+        document.getElementById("outputUsersBirthSexField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputUsersBirthSexField").innerHTML = "Your 'Birth Sex' is a require field.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputUsersBirthSexField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.     
         return false;
     }
+
     if (usersGenderChoice == null || usersGenderChoice == "") {
-        alert("This field is required, you must enter your 'Gender Identity'.")
+        // Add node white style color to the document message.
+        document.getElementById("outputUsersGenderField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputUsersGenderField").innerHTML = "Your 'Gender Identity' is a require field.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputUsersGenderField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.          
         return false;
     }
-    if (usersNameId == null || usersNameId == "") {
-        alert("This field is required, you must enter your 'User Name'.")
+
+    if (usersNameId == null || usersNameId == "" || usersNameId.length < 6) {
+        // Add node white style color to the document message.
+        document.getElementById("outputUsersIdField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputUsersIdField").innerHTML = "Your 'User Name Id' is a require field and must be greater than six (6) character strings.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputUsersIdField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.          
         return false;
     }
     if (usersEmail == null || usersEmail == "") {
