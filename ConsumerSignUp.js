@@ -51,9 +51,12 @@ function clearFunction() {
     
 }
 
+
 let today = new Date().toISOString().substr(0, 10);
 document.querySelector("#today").value = today;
 document.querySelector("#usersDOB").valueAsDate = new Date();
+
+
 
 /* Users input data are stored and displayed, as output data prints onto the 
    guessing game webpage. */
@@ -92,6 +95,8 @@ function submitFunction(usersEmailAddress) {
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
 
+    
+
     // Create users first name if statements, in order to verify all users have entered texts into the required first name fields.
     if (usersFirstName == null || usersFirstName == "" || usersFirstName.length < 3) {        
         // Add node white style color to the document message.
@@ -107,16 +112,22 @@ function submitFunction(usersEmailAddress) {
         return false;
     }
 
-    if (usersMiddleName == null || usersMiddleName == "" || usersFirstName.length < 0) {          
+    if (usersMiddleName == null || usersMiddleName == "" || usersFirstName.length < 0) {
         // Add node white style color to the document message.
         document.getElementById("outputMiddleNameField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors.          
         document.getElementById("outputMiddleNameField").innerHTML = "If applicable, your 'Middle Name' is a require field";
-        // Add set time out node document to clear meassage after seven (7) seconds.
+        //Add set time out node document to clear meassage after seven (7) seconds.
         setTimeout(function() {        
         document.getElementById("outputMiddleNameField").innerHTML = " ";
         },
         7000);
+
+      
+      $("#submitButton").one("click", function(){
+        $("#outputMiddleNameField").one();
+     })
+
         // Return false, if statement is not true.
         return false;
     }
@@ -131,6 +142,9 @@ function submitFunction(usersEmailAddress) {
         document.getElementById("outputLastNameField").innerHTML = " ";
         },
         7000);
+
+       
+        
         // Return false, if statement is not true.
         return false;
     }
@@ -191,9 +205,42 @@ function submitFunction(usersEmailAddress) {
         return false;
     }
     if (usersEmail == null || usersEmail == "") {
-        alert("This field is required, you must enter your 'Email Address'.")
+        // Add node white style color to the document message.
+        document.getElementById("outputUsersEmailAddressField").style.color = "#ffffff"; 
+        // Add node document message, as an alert to users text errors.          
+        document.getElementById("outputUsersEmailAddressField").innerHTML = "Your 'Email Address' is a require field.";
+        // Add set time out node document to clear meassage after seven (7) seconds.
+        setTimeout(function() {        
+        document.getElementById("outputUsersEmailAddressField").innerHTML = " ";
+        },
+        7000);
+        // Return false, if statement is not true.          
         return false;
     }
+
+    var emailRegExFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    function validateEmail(usersEmailAddress) {
+        if (usersEmailAddress.value.match(emailRegExFormat)) {
+            return true;
+        }
+        else {
+            // Add node white style color to the document message.
+            document.getElementById("outputUsersEmailAddressField").style.color = "#ffffff"; 
+            // Add node document message, as an alert to users text errors.          
+            document.getElementById("outputUsersEmailAddressField").innerHTML = "You have entered an invalid email address!";
+            // Add set time out node document to clear meassage after seven (7) seconds.
+            setTimeout(function() {        
+            document.getElementById("outputUsersEmailAddressField").innerHTML = " ";
+            },
+            7000);
+            // set the cursor focus to users email address textbox.
+            usersEmailAddress.focus();
+            // Return false, if statement is not true.          
+            return false;  
+        }
+    }
+
+
     if ( usersConfirmEmail == null || usersConfirmEmail == "") {
         alert("This field is required, you must enter your 'Confirm Email Address'.")
         return false;
@@ -275,6 +322,8 @@ function submitFunction(usersEmailAddress) {
 
     }
 
+   
+    
     
 
  
