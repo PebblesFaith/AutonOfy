@@ -830,8 +830,6 @@ margin-bottom: 30px;
   }
 }
 
-
-
 /* Create css standard box container, in order to stored users data input from html elements.*/
 * {
   margin: 0;
@@ -937,7 +935,7 @@ margin-bottom: 30px;
   font-size: 12px;
 }
 
-#outputFirstName, #outputFirstNameField, #outputMiddleName, #outputMiddleNameField, #outputLastName, #outputLastNameField, #outputUsersDOB, #outputUsersDOBField, #outputUsersBirthSex, #outputUsersBirthSexField, #outputUsersGender, #outputUsersGenderField, #outputUsersEmailAddress, #outputUsersEmailAddressField1, #outputUsersEmailAddressField2, #outputConfirmUsersEmailAddress, #outputUsersConfirmEmailAddressField1, #outputUsersConfirmEmailAddressField2, #outputUsersId, #outputUsersIdField, #outputUsersPassword, #outputUsersPasswordField1, #outputUsersPasswordField2, #outputUsersConfirmPassword, #outputUsersConfirmPasswordField1, #outputUsersConfirmPasswordField2
+#outputFirstName, #outputFirstNameField, #outputMiddleName, #outputMiddleNameField, #outputLastName, #outputLastNameField, #outputUsersDOB, #outputUsersDOBField, #outputUsersBirthSex, #outputUsersBirthSexField, #outputUsersGender, #outputUsersGenderField, #outputUsersEmailAddress, #outputUsersEmailAddressField1, #outputUsersEmailAddressField2, #outputConfirmUsersEmailAddress, #outputUsersConfirmEmailAddressField1, #outputUsersConfirmEmailAddressField2, #outputUsersId, #outputUsersIdField, #outputUsersPassword, #outputUsersPasswordField1, #outputUsersPasswordField2, #outputUsersConfirmPassword, #outputUsersConfirmPasswordField1, #outputUsersConfirmPasswordField2, #outputPolicyTerms, #outputGoTermsField
 {
   color: rgb(209, 196, 138);
   font-family: 'Times New Roman', Times, serif;
@@ -1078,8 +1076,6 @@ option {
   font-size: 12px;
 }
 
-
-
 ::-webkit-input-placeholder {
   color: rgb(209, 196, 138);
 }
@@ -1102,8 +1098,6 @@ option {
   }
 }
 
-
-
 /*Create paragraph two (2) to set font size, family, style and color for photo by Xianjuan Hu on Unsplash.com. */
 .p2 {
   font-size: 13px;
@@ -1113,3 +1107,121 @@ option {
   text-align: center;
 }
 
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: rgb(209, 196, 138);
+  word-spacing: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: rgb(238, 238, 238);
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(209, 196, 138);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 3px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#aLink1 {
+  background: transparent;
+  text-decoration: none;
+  border: 0;
+  text-transform: capitalize;
+  word-spacing: normal;
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+
+}
+
+#aLink2 {
+  background: transparent;
+  text-decoration: none;
+  border: 0;
+  text-transform: capitalize;
+  word-spacing: normal;
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+
+}
+
+#aLink3 {
+  background: transparent;
+  text-decoration: none;
+  border: 0;
+  text-transform: capitalize;
+  word-spacing: normal;
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+
+}
+
+#aLink4 {
+  background: transparent;
+  text-decoration: none;
+  border: 0;
+  text-transform: capitalize;
+  word-spacing: normal;
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+
+}
