@@ -1,5 +1,5 @@
  
-// Creates nodes to clear all inputs textboxes and drop down menus. 
+// Creates nodes to clear all inputs textboxes and drop down menus in the clear button function. 
 function clearFunction() {
     document.getElementById("firstName").value = "";
     document.getElementById("firstName").placeholder = "First Name";
@@ -57,6 +57,8 @@ function clearFunction() {
     document.getElementById("outputUsersConfirmPasswordField1").innerHTML = ""; 
     document.getElementById("outputUsersConfirmPasswordField2").innerHTML = ""; 
 
+    document.getElementById("goTerms").checked = false;
+
 }
 
 
@@ -99,7 +101,8 @@ function submitFunction() {
 
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
-    
+
+   
     // Create an if statement in users first name, in order to verify, if all users have entered texts into the required first name field.
     if (usersFirstName == null || usersFirstName == "" || usersFirstName.length < 3) {        
         // Add node white style color to the document message.
@@ -386,17 +389,41 @@ function submitFunction() {
         return false;
 
         }
+       
+        // Create an if statement in users' checkbox, in order to verify, if all users have checkbox their Terms and Services, Privacy Policy, Data Policy and Cookie Policy into the required checkbox field.
+        if (!document.getElementById("goTerms").checked == true) {        
+            // Add node white style color to the document message.
+            document.getElementById("outputGoTermsField").style.color = "#ffffff";
+            // Add node document message, as an alert to users text errors. 
+            document.getElementById("outputGoTermsField").innerHTML = "Please indicate that you accept the Terms and Services, Privacy Policy, Data Policy and Cookie Policy";
+                // Add set time out node document to clear message after seven (7) seconds.
+                setTimeout(function() {        
+                document.getElementById("outputGoTermsField").innerHTML = " ";
+                },
+                7000);
+            // Return false, if statement is not true.  
+            return false;   
+        }
+    
+    else {
+    //return true;
+    document.getElementById("outputPolicyTerms").innerHTML = "Accepted Terms";
+    // If no users entries are displayed, as an errorrous entries than the users are hyperlink to the AcceptTerms1 webpage.
+    // Create a urlTerms variable in order to create users interactive hyperlink url connection.
+    
+    var urlTerms = 'c:/Users/sarai/Documents/Module 2 Project/AutonOfy/ConsumersConfirmEmail.html';
+    //The location will open urlTerms in AcceptTerms1 webpage.
+    location = urlTerms;
 
-     else {
-        // return true;
-        // If no users entries are displayed, as an errorrous entries than the users are hyperlink to the AcceptTerms1 webpage.
-        // Create a urlTerms variable in order to create users interactive hyperlink url connection.
-        var urlTerms = 'c:/Users/sarai/Documents/Module 2 Project/AutonOfy/AcceptTerms1.html';
-        //The location will open urlTerms in AcceptTerms1 webpage.
-        location = urlTerms;
+        
 
     }
+
+    
+
+    
 }
+
 
 
 
