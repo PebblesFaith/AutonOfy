@@ -123,7 +123,7 @@ function submitFunction() {
         // Add node white style color to the document message.
         document.getElementById("outputMiddleNameField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors. 
-        document.getElementById("outputMiddleNameField").innerHTML = "If applicable, your 'Middle Name' is a require field";
+        document.getElementById("outputMiddleNameField").innerHTML = "If applicable, your 'Middle Name' is a require field, if you do not have a middle name leave a blank field.";
             //Add set time out node document to clear message after seven (7) seconds.
             setTimeout(function() { 
             document.getElementById("outputMiddleNameField").innerHTML = " ";
@@ -206,7 +206,7 @@ function submitFunction() {
         // Add node white style color to the document message.
         document.getElementById("outputUsersIdField").style.color = "#ffffff"; 
         // Add node document message, as an alert to users text errors. 
-        document.getElementById("outputUsersIdField").innerHTML = "Your 'User Name Id' is a require field and must be greater than six (6) character strings.";
+        document.getElementById("outputUsersIdField").innerHTML = "Your 'User Name Id' is a require field and must be greater than six (6) characters.";
             // Add set time out node document to clear message after seven (7) seconds.
             setTimeout(function() {        
             document.getElementById("outputUsersIdField").innerHTML = " ";
@@ -332,7 +332,7 @@ function submitFunction() {
             setTimeout(function() {  
             document.getElementById("outputUsersPasswordField2").innerHTML = " ";
             },
-            50000);
+            10000);
             // Set the users email address  focus to the textbox.
             usersPassword.focus(); 
         // Return false, if statement is not true. 
@@ -368,7 +368,7 @@ function submitFunction() {
             setTimeout(function() {  
             document.getElementById("outputUsersConfirmPasswordField2").innerHTML = " ";
             },
-            50000);
+            10000);
             // Set the users email address  focus to the textbox.
             usersConfirmPassword.focus(); 
         // Return false, if statement is not true. 
