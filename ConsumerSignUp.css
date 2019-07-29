@@ -1225,3 +1225,15 @@ option {
   font-size: 13px;
 
 }
+
+#eyesClose {
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px; 
+}
+
+#eyesOpen {
+  color: rgb(209, 196, 138);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px; 
+}
