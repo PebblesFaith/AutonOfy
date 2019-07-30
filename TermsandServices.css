@@ -227,10 +227,154 @@ body {
   }
 
   /* Assign hover color selector when users select button element when moused over the "Terms of Service" button. */
-  
   .tosButton:hover {background: #eee;}
  
   
+
+
+
+
+
+  #tosBody {                                       
+    flex: 65%;
+    max-width: 65%;
+    padding: 0 4px;
+    text-align: center;
+    font-size: 20px; 
+    font-family: 'Book Antiqua', Times, serif; 
+    /*font-style: italic; */
+    background-color: rgb(107, 107, 107);
+    color: white;
+  }
+  
+   
+  #tosBody > h5 {
+    margin-top: 25px;
+    vertical-align: middle;
+  } 
+    
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 1000px) {
+    #tosBody {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 800px) {
+    #tosBody {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    #tosBody {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Main flex box container for storing individual buttons sub-containers. */
+  #tosSection1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  background-color:  rgb(107, 107, 107); 
+  align-items: center;
+  justify-content: center; 
+  }
+  
+  /* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
+  
+  #tosSection1 > div {
+  background-color: rgb(107, 107, 107);
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 18px;
+  margin-left: center;
+  border: none;  
+  font-family: 'Book Antiqua', Times, serif; 
+  /* font-style: italic; */ 
+  color: rgb(255, 255, 255);
+  }
+  
+  /* Assign selector button to div element for linking button2 to the "About" web page. */
+  #tosSection-P1-1 {
+  border: none;
+  background-color: inherit;
+  padding: 10px 18px;
+  font-family: 'Book Antiqua', Times, serif;
+  font-size: 15px;
+  cursor: 16px;
+  cursor: pointer;
+  display: inline-block; 
+  color: rgb(255, 255, 255);  
+  }
+  
+  /* Assign selector button to div element for linking button2 to the "About" web page. */
+  #tosSection-P1-2 {
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(255, 255, 255); 
+    
+    }
+
+/* Assign selector button to div element for linking button2 to the "About" web page. */
+#tosSection-P2-1 {
+    border: none;
+    background-color: inherit;
+    padding: 10px 18px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 15px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(255, 255, 255);  
+    }
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
