@@ -1,0 +1,318 @@
+body {
+    background-color: white;
+    height: 1500px;
+  }
+  
+  /* Add media screen color change, if the screen is reduce to 400px. */
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  
+  /* Main flex box container for storing individual buttons sub-containers. */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    justify-content: center; 
+   }
+  
+  /* Add push selector to div element to skip three (3) empty div element containers, so my remaining containers can be shown, as individual line button, if shrink. */
+  .push {
+    margin-left: auto;
+   }
+  
+  /* Setup sub-containers div elements for storing navigational buttons on top of homepage. */
+  
+  .flex-container > div {
+    background-color: rgb(255, 255, 255);
+    width: 165px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    margin-left: center;
+    border: none;  
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+  }
+  
+  /* Assign selector button to div element for linking button1 to the "What We Do" web page. */
+  .button1 {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 16px;
+    cursor: 16px;
+    cursor: pointer;
+    display: inline-block; 
+    color: rgb(107, 107, 107);   
+  }
+  
+  .button1:hover {background: #eee;}
+  .WhatWeDo {color: rgb(107, 107, 107);}
+  
+  /* Assign selector button to div element for linking button2 to the "ABout" web page. */
+  .button2 {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: 'Book Antiqua', Times, serif;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block; 
+      color: rgb(107, 107, 107);  
+  }
+  
+  .button2:hover {background: #eee;}
+  .About {color: rgb(107, 107, 107);}
+  
+  /* Assign selector button to div element for linking button3 to the "Contact" web page. */
+  .button3 {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: 'Book Antiqua', Times, serif;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block; 
+      color: rgb(107, 107, 107);   
+  }
+  
+  .button3:hover {background: #eee;}
+  .contact {color: rgb(107, 107, 107);}
+  
+  /* Assign selector button to div element for linking button4 to the "Login" web page. */
+  .button4 {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: 'Book Antiqua', Times, serif;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block;   
+      color: rgb(107, 107, 107);
+  }
+  
+  .button4:hover {background: #eee;}
+  .login {color: rgb(107, 107, 107);}
+  
+  /* Main flex box container to store sub-title into sub-containers. */
+  .flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Sub-container flex box to store sub-title content. */
+  .flex-container1 > div {
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    margin-left: center;
+    border: none; 
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+    color: rgb(107, 107, 107);
+  
+  }
+  
+  /* AutoNofy Banner for Home page. */
+  .banner1 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 10vw;
+    font-style: italic; 
+    max-width: 1400px;
+    height: 170px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 2 auto;
+    justify-content: center;
+    color: rgb(107, 107, 107);
+  }
+  
+  /* Main flex box container to store "AutonOfy Strip Double Line Under Header" picture into sub-containers. */
+  .flex-containerPic1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(107, 107, 107); 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Assign Selector to Sub-container element to store "AutonOfy Strip Double Line Under Header" picture into sub-containers */
+  .flex-containerPic1 > div {
+    background-color: rgb(107, 107, 107);
+    width: 1440px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px; 
+    margin-left: center;
+    border: none;  
+  }
+  
+  /* Main flex box container to store "istockphoto-503840542-1024x1024 Like1" picture into sub-containers. */
+  .flex-containerPic2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+/* Main flex box container to store "Download Terms of Service" into a sub-containers. */
+.downloadTOS {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    background-color: rgb(255, 255, 255); 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Sub-container flex box to store "Download Terms of Service" content. */
+  .downloadTOS > div {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 19px;
+    margin-left: center;
+    border: none; 
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+  }
+  
+  /* Assign selector button to div element for linking "Terms of Services" button to the "Terms of Services" pdf documentation. */
+  .tosButton {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      font-family: Book Antiqua;
+      font-size: 16px;
+      cursor: 16px;
+      cursor: pointer;
+      display: inline-block;   
+      color: rgb(107, 107, 107);
+  }
+
+  /* Assign hover color selector when users select button element when moused over the "Terms of Service" button. */
+  
+  .tosButton:hover {background: #eee;}
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Setup one (1) column container inside row in order to places footer displays.*/
+  .column5 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+    text-align: center;
+    font-size: 16px;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-style: italic; 
+    background-color: rgb(107, 107, 107);
+    color: white;
+  }
+  
+  /* Fourth (4th) row footer is position with top margin pixels selected to provide space between footer row*/
+  #alignment6 {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  }
+    
+  /* Responsive layout - makes a two (2) column-layout instead of one (1) column in third (3rd) icons row. */
+  @media (max-width: 1000px) {
+    .column5 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the three (3) columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+  @media (max-width: 800px) {
+    .column5 {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other in third (3rd) icons row.*/
+  @media (max-width: 600px) {
+    .column5 {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
