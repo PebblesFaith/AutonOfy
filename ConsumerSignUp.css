@@ -1055,6 +1055,22 @@ label > p {
   font-size: 12px;
 }
 
+
+
+#asteriskPassword1 {
+  margin: 12px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(209, 196, 138);
+  padding: 10px;
+  color: rgb(209, 196, 138);
+  width: 25%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center; 
+}
+
 #usersConfirmPassword {
   margin: 10px 0;
   background: transparent;
@@ -1226,14 +1242,77 @@ option {
 
 }
 
-#eyesClose {
+
+/* The container */
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
   color: rgb(209, 196, 138);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 12px; 
+  word-spacing: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#eyesOpen {
-  color: rgb(209, 196, 138);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 12px; 
+/* Hide the browser's default checkbox */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmarkClose {
+  align-items: center;
+  justify-content: center; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  background-color: rgb(238, 238, 238);
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmarkClose{
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmarkClose {
+  background-color: rgb(209, 196, 138);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkClose:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmarkClose:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmarkClose:after {
+  left: 5px;
+  top: 2px;
+  width: 2px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
