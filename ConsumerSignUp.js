@@ -102,6 +102,9 @@ function submitFunction() {
     var usersCreateConfirmPassword = document.getElementById("usersConfirmPassword").value;
     document.getElementById("outputUsersConfirmPassword").innerHTML = usersCreateConfirmPassword;
 
+
+
+
    
     // Create an if statement in users first name, in order to verify, if all users have entered texts into the required first name field.
     if (usersFirstName == null || usersFirstName == "" || usersFirstName.length < 3) {        
@@ -389,6 +392,18 @@ function submitFunction() {
         return false;
 
         }
+
+        
+    
+    
+    
+
+    
+
+    
+
+
+
        
         // Create an if statement in users' checkbox, in order to verify, if all users have checkbox their Terms and Services, Privacy Policy, Data Policy and Cookie Policy into the required checkbox field.
         if (!document.getElementById("goTerms").checked == true) {        
@@ -404,27 +419,25 @@ function submitFunction() {
             // Return false, if statement is not true.  
             return false;   
         }
-    
-    else {
-    //return true;
-    document.getElementById("outputPolicyTerms").innerHTML = "Accepted Terms";
-    // If no users entries are displayed, as an errorrous entries than the users are hyperlink to the AcceptTerms1 webpage.
-    // Create a urlTerms variable in order to create users interactive hyperlink url connection.
-    
-    var urlTerms = 'c:/Users/sarai/Documents/Module 2 Project/AutonOfy/ConsumersConfirmEmail.html';
-    //The location will open urlTerms in AcceptTerms1 webpage.
-    location = urlTerms;
 
+          
+        else {
+        //return true;
+        document.getElementById("outputPolicyTerms").innerHTML = "Accepted Terms";
+        // If no users entries are displayed, as an errorrous entries than the users are hyperlink to the AcceptTerms1 webpage.
+        // Create a urlTerms variable in order to create users interactive hyperlink url connection.
         
+        var urlTerms = 'c:/Users/sarai/Documents/Module 2 Project/AutonOfy/ConsumersConfirmEmail.html';
+        //The location will open urlTerms in AcceptTerms1 webpage.
+        location = urlTerms;
 
+            
+
+        }
+        
     }
 
-    
 
     
-}
-
-
-
 
 
