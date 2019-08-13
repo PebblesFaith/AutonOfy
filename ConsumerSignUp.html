@@ -77,7 +77,9 @@
 
         <br>
         <div class="picture-containerPic1"> 
+            <!--
             <p class="p2">Photo by Ryoji Iwata on Unsplash.com</p>
+            -->
 
           
             <div class="users-Form">
@@ -150,24 +152,20 @@
 
             <div class="users-Form">
                 <div class="usersInput-Field"> 
-                    <input type="text" id="usersPassword"  placeholder="Password" required/>
+                    <input type="password" id="usersPassword" onclick="hideUnhidePassword1Function()" value=" " placeholder="Password" required/>
+                    <input type="image" />
+                
                     <p id="outputUsersPasswordField1"></p>  
-                    <p id="outputUsersPasswordField2"></p>                           
-                </div>
-
-                <div class="usersInput-Field"> 
-                    <label class="container2">
-                        <img class="imageColumn" src="c:/Users/sarai/Documents/Module 2 Project/Pictures/icons8-eye-24.png" alt="Password Close" />                                     
-                        <input id="asteriskPassword1" type="checkbox" checked/>
-                        <span class="checkmarkClose"></span>
-                    </label>                    
+                    <p id="outputUsersPasswordField2"></p>                 
                      
                 </div> 
 
 
     
                 <div class="usersInput-Field"> 
-                    <input type="text" id="usersConfirmPassword"  placeholder="Confirm Password" required/>
+                    <input type="password" id="usersConfirmPassword" onclick="hideUnhidePassword2Function()" value=" " placeholder="Confirm Password" required/>
+                    <input type="image" />
+                    
                     <p id="outputUsersConfirmPasswordField1"></p>  
                     <p id="outputUsersConfirmPasswordField2"></p> 
                 </div>
