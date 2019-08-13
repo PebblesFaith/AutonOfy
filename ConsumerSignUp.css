@@ -839,6 +839,7 @@ margin-bottom: 30px;
   font-family: 'Book Antiqua', Times, serif;
 }
 
+/*
 .picture-containerPic1 { 
   padding: 25px;
   flex-direction: row;  
@@ -850,6 +851,7 @@ margin-bottom: 30px;
   height: 100%;
   width: 100%;
 }
+*/
 
 .users-Form { 
     max-width: 750px;
@@ -1053,6 +1055,8 @@ label > p {
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
+  background: url('c:/Users/sarai/Documents/Module 2 Project/Pictures/icons8-eye-24.png') no-repeat 97.25% 10px;
+ 
 }
 
 
@@ -1081,6 +1085,7 @@ label > p {
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 12px;
+  background: url('c:/Users/sarai/Documents/Module 2 Project/Pictures/icons8-eye-24.png') no-repeat 97.25% 10px;
 }
 
 option {
@@ -1316,3 +1321,4 @@ option {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
