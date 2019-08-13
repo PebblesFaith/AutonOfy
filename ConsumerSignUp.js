@@ -330,7 +330,7 @@ function submitFunction() {
         // Add node white style color to the document message.
         document.getElementById("outputUsersPasswordField2").style.color = "#ffffff";
         // Add node document message, as an alert to users text errors. 
-        document.getElementById("outputUsersPasswordField2").innerHTML = "Your confirm password must be at least 8 characters in lenght" + "<br />" +  " and contain a least 4 of the following 4 types of characters:" + "<br />" + "\u2192 contain at least one lower case letter (i.e. a-z)," + "<br />" + "\u2192 contain at least one upper case letter (i.e. A-Z)," + "<br />" + "\u2192 contain at least one numeric digit (i.e. 0-9), and" + "<br />" + "\u2192 contain at least one special character (i.e. !@#$&*{ }[ ]^%).";
+        document.getElementById("outputUsersPasswordField2").innerHTML = "Your password must be at least 8 characters in lenght" + "<br />" +  " and contain a least 4 of the following 4 types of characters:" + "<br />" + "\u2192 contain at least one lower case letter (i.e. a-z)," + "<br />" + "\u2192 contain at least one upper case letter (i.e. A-Z)," + "<br />" + "\u2192 contain at least one numeric digit (i.e. 0-9), and" + "<br />" + "\u2192 contain at least one special character (i.e. !@#$&*{ }[ ]^%).";
             // Add set time out node document to clear message after fifty (50) seconds.
             setTimeout(function() {  
             document.getElementById("outputUsersPasswordField2").innerHTML = " ";
@@ -366,7 +366,7 @@ function submitFunction() {
         // Add node white style color to the document message.
         document.getElementById("outputUsersConfirmPasswordField2").style.color = "#ffffff";
         // Add node document message, as an alert to users text errors. 
-        document.getElementById("outputUsersConfirmPasswordField2").innerHTML = "Your password must be at least 8 characters in lenght" + "<br />" +  " and contain a least 4 of the following 4 types of characters:" + "<br />" + "\u2192 contain at least one lower case letter (i.e. a-z)," + "<br />" + "\u2192 contain at least one upper case letter (i.e. A-Z)," + "<br />" + "\u2192 contain at least one numeric digit (i.e. 0-9), and" + "<br />" + "\u2192 contain at least one special character (i.e. !@#$&*{ }[ ]^%).";  
+        document.getElementById("outputUsersConfirmPasswordField2").innerHTML = "Your confirm password must be at least 8 characters in lenght" + "<br />" +  " and contain a least 4 of the following 4 types of characters:" + "<br />" + "\u2192 contain at least one lower case letter (i.e. a-z)," + "<br />" + "\u2192 contain at least one upper case letter (i.e. A-Z)," + "<br />" + "\u2192 contain at least one numeric digit (i.e. 0-9), and" + "<br />" + "\u2192 contain at least one special character (i.e. !@#$&*{ }[ ]^%).";  
             // Add set time out node document to clear meassage after fifty (50) seconds.
             setTimeout(function() {  
             document.getElementById("outputUsersConfirmPasswordField2").innerHTML = " ";
@@ -437,7 +437,28 @@ function submitFunction() {
         
     }
 
+// Create function to store hide and unhide users Password on click event. 
+function hideUnhidePassword1Function() {
+    //Users input passwords are stored and displayed, as hide and unhide dotted passwords onto users password textbox.
+    var dotsPassword1 = document.getElementById("usersPassword");
+// Create an if statement for users' password textbox, in order to hide and unhide users' password within the textbox.
+    if (dotsPassword1.type === "password") {
+        dotsPassword1.type = "text";
+    }
+    else {
+        dotsPassword1.type = "password";
+    }
+}     
 
-    
-
-
+// Create function to store hide and unhide users confirm Password on click event. 
+function hideUnhidePassword2Function() {
+    //Users input confirm passwords are stored and displayed, as hide and unhide dotted passwords onto users confirm password textbox.
+    var dotsPassword2 = document.getElementById("usersConfirmPassword");
+// Create an if statement for users' confirm password textbox, in order to hide and unhide users' confirm password within the textbox.
+    if (dotsPassword2.type === "password") {
+        dotsPassword2.type = "text";
+    }
+    else {
+        dotsPassword2.type = "password";
+    }
+}  
